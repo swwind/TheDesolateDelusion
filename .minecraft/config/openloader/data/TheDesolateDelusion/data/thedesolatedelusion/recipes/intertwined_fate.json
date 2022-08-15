@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AAA", "A A", "AAA"],
+  "key": {
+    "A": { "item": "kubejs:primogem" }
+  },
+  "result": { "item": "kubejs:intertwined_fate" }
+}

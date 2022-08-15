@@ -1,23 +1,23 @@
 {
   "type": "create:sequenced_assembly",
   "ingredient": { "item": "pneumaticcraft:unassembled_pcb" },
-  "transitionalItem": { "item": "kubejs:bilibili_television" },
+  "transitionalItem": { "item": "pneumaticcraft:unassembled_pcb" },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
-        { "item": "kubejs:bilibili_television" },
+        { "item": "pneumaticcraft:unassembled_pcb" },
         { "item": "pneumaticcraft:capacitor" }
       ],
-      "results": [{ "item": "kubejs:bilibili_television" }]
+      "results": [{ "item": "pneumaticcraft:unassembled_pcb" }]
     },
     {
       "type": "create:deploying",
       "ingredients": [
-        { "item": "kubejs:bilibili_television" },
+        { "item": "pneumaticcraft:unassembled_pcb" },
         { "item": "pneumaticcraft:transistor" }
       ],
-      "results": [{ "item": "kubejs:bilibili_television" }]
+      "results": [{ "item": "pneumaticcraft:unassembled_pcb" }]
     }
   ],
   "results": [{ "item": "pneumaticcraft:printed_circuit_board" }],

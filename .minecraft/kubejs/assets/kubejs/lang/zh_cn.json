@@ -2,5 +2,13 @@
   "item.kubejs.bilibili_television": "哔哩哔哩小电视",
   "item.kubejs.bilibili_television.desc": "§d“你所热爱的，就是你的生活”",
 
-  "item.kubejs.bilibili_television.tip": "§e毕业物品"
+  "item.kubejs.bilibili_television.tip": "§e毕业物品",
+
+  "item.kubejs.anemo_crystal": "风元素结晶",
+  "item.kubejs.cryo_crystal": "冰元素结晶",
+  "item.kubejs.dendro_crystal": "草元素结晶",
+  "item.kubejs.electro_crystal": "雷元素结晶",
+  "item.kubejs.geo_crystal": "岩元素结晶",
+  "item.kubejs.hydro_crystal": "水元素结晶",
+  "item.kubejs.pyro_crystal": "火元素结晶"
 }

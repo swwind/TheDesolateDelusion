@@ -1,6 +1,14 @@
 {
   "item.kubejs.bilibili_television": "Bilibili Television",
+  "item.kubejs.bilibili_television.tip": "§eThe final item",
+
   "item.kubejs.bilibili_television.desc": "§d§oWhat you love, is your life",
 
-  "item.kubejs.bilibili_television.tip": "§eThe final item"
+  "item.kubejs.anemo_crystal": "Anemo Crystal",
+  "item.kubejs.cryo_crystal": "Cryo Crystal",
+  "item.kubejs.dendro_crystal": "Dendro Crystal",
+  "item.kubejs.electro_crystal": "Electro Crystal",
+  "item.kubejs.geo_crystal": "Geo Crystal",
+  "item.kubejs.hydro_crystal": "Hydro Crystal",
+  "item.kubejs.pyro_crystal": "Pyro Crystal"
 }

@@ -1,39 +1,31 @@
 {
   "type": "create:sequenced_assembly",
-  "ingredient": {
-    "item": "pneumaticcraft:plastic"
-  },
-  "transitionalItem": {
-    "item": "kubejs:bilibili_television"
-  },
+  "ingredient": { "item": "pneumaticcraft:plastic" },
+  "transitionalItem": { "item": "pneumaticcraft:plastic" },
   "sequence": [
     {
       "type": "create:deploying",
       "ingredients": [
-        { "item": "kubejs:bilibili_television" },
+        { "item": "pneumaticcraft:plastic" },
         { "tag": "forge:slimeballs" }
       ],
-      "results": [{ "item": "kubejs:bilibili_television" }]
+      "results": [{ "item": "pneumaticcraft:plastic" }]
     },
     {
       "type": "create:deploying",
       "ingredients": [
-        { "item": "kubejs:bilibili_television" },
+        { "item": "pneumaticcraft:plastic" },
         { "tag": "forge:nuggets/gold" }
       ],
-      "results": [
-        {
-          "item": "kubejs:bilibili_television"
-        }
-      ]
+      "results": [{ "item": "pneumaticcraft:plastic" }]
     },
     {
       "type": "create:deploying",
       "ingredients": [
-        { "item": "kubejs:bilibili_television" },
+        { "item": "pneumaticcraft:plastic" },
         { "tag": "forge:nuggets/gold" }
       ],
-      "results": [{ "item": "kubejs:bilibili_television" }]
+      "results": [{ "item": "pneumaticcraft:plastic" }]
     }
   ],
   "results": [{ "item": "pneumaticcraft:capacitor" }],

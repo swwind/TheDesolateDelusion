@@ -5,8 +5,7 @@
       "id": 238222,
       "name": "Just Enough Items (JEI)",
       "client": true,
-      "server": true,
-      "fileId": 3885885
+      "server": true
     },
     {
       "id": 231275,
@@ -66,8 +65,7 @@
       "id": 250702,
       "name": "Just Enough Characters",
       "client": true,
-      "server": true,
-      "fileId": 3896376
+      "server": true
     },
     {
       "id": 250363,
@@ -214,12 +212,6 @@
       "server": false
     },
     {
-      "id": 563495,
-      "name": "Immersive FX",
-      "client": true,
-      "server": true
-    },
-    {
       "id": 361579,
       "name": "spark",
       "client": true,
@@ -280,12 +272,6 @@
       "server": true
     },
     {
-      "id": 549381,
-      "name": "Compressed Creativity",
-      "client": true,
-      "server": true
-    },
-    {
       "id": 306770,
       "name": "Patchouli",
       "client": true,
@@ -312,30 +298,6 @@
     {
       "id": 416294,
       "name": "Rhino",
-      "client": true,
-      "server": true
-    },
-    {
-      "id": 372534,
-      "name": "Pam's HarvestCraft 2 - Food Core",
-      "client": true,
-      "server": true
-    },
-    {
-      "id": 361385,
-      "name": "Pam's HarvestCraft 2 - Crops",
-      "client": true,
-      "server": true
-    },
-    {
-      "id": 365460,
-      "name": "Pam's HarvestCraft 2 - Trees",
-      "client": true,
-      "server": true
-    },
-    {
-      "id": 402231,
-      "name": "Pam's HarvestCraft 2 - Food Extended",
       "client": true,
       "server": true
     }

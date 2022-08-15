@@ -16,5 +16,6 @@
       "fluid": "create:honey",
       "amount": 250
     }
-  ]
+  ],
+  "heatRequirement": "heated"
 }

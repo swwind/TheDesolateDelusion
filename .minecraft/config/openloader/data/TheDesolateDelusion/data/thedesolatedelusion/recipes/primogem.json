@@ -1,0 +1,15 @@
+{
+  "type": "create:mechanical_crafting",
+  "pattern": ["ABCDEFG"],
+  "key": {
+    "A": { "item": "kubejs:pyro_crystal" },
+    "B": { "item": "kubejs:hydro_crystal" },
+    "C": { "item": "kubejs:anemo_crystal" },
+    "D": { "item": "kubejs:electro_crystal" },
+    "E": { "item": "kubejs:dendro_crystal" },
+    "F": { "item": "kubejs:cryo_crystal" },
+    "G": { "item": "kubejs:geo_crystal" }
+  },
+  "result": { "item": "kubejs:primogem" },
+  "acceptMirrored": false
+}
