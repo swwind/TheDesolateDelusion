@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "drawerstooltip:standard",
+      "content": { "item": "minecraft:iron_ingot" },
+      "amount": 256
+    },
+    {
+      "type": "drawerstooltip:standard",
+      "content": { "item": "minecraft:copper_ingot" },
+      "amount": 256
+    },
+    {
+      "type": "drawerstooltip:standard",
+      "content": { "item": "minecraft:gold_ingot" },
+      "amount": 256
+    },
+    {
+      "type": "drawerstooltip:standard",
+      "content": { "item": "create:zinc_ingot" },
+      "amount": 256
+    }
+  ],
+  "result": {
+    "item": "kubejs:geo_crystal"
+  }
+}

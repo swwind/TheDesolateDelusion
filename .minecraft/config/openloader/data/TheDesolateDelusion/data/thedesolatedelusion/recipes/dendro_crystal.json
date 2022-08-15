@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "drawerstooltip:standard",
+      "content": { "item": "minecraft:grass_block" },
+      "amount": 256
+    }
+  ],
+  "result": {
+    "item": "kubejs:dendro_crystal"
+  }
+}

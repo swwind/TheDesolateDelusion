@@ -10,5 +10,16 @@
   "item.kubejs.electro_crystal": "雷元素结晶",
   "item.kubejs.geo_crystal": "岩元素结晶",
   "item.kubejs.hydro_crystal": "水元素结晶",
-  "item.kubejs.pyro_crystal": "火元素结晶"
+  "item.kubejs.pyro_crystal": "火元素结晶",
+
+  "item.kubejs.anemo_crystal.tip": "§3§o嗯…好想坐在大树上，手边有喝不完的苹果酒。哎。",
+  "item.kubejs.cryo_crystal.tip": "冰元素结晶",
+  "item.kubejs.dendro_crystal.tip": "草元素结晶",
+  "item.kubejs.electro_crystal.tip": "雷元素结晶",
+  "item.kubejs.geo_crystal.tip": "岩元素结晶",
+  "item.kubejs.hydro_crystal.tip": "水元素结晶",
+  "item.kubejs.pyro_crystal.tip": "火元素结晶",
+
+  "item.kubejs.primogem": "原石",
+  "item.kubejs.intertwined_fate": "纠缠之缘"
 }

@@ -1,0 +1,11 @@
+{
+  "type": "create:crushing",
+  "ingredients": [{ "item": "minecraft:flint" }],
+  "results": [
+    {
+      "item": "minecraft:gunpowder",
+      "chance": 0.5
+    }
+  ],
+  "processingTime": 100
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "type": "drawerstooltip:standard",
+      "content": { "item": "farmersdelight:apple_cider" },
+      "amount": 256
+    }
+  ],
+  "result": {
+    "item": "kubejs:anemo_crystal"
+  }
+}

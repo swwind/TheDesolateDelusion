@@ -18,8 +18,19 @@
         { "item": "pneumaticcraft:transistor" }
       ],
       "results": [{ "item": "pneumaticcraft:unassembled_pcb" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "pneumaticcraft:unassembled_pcb" },
+        { "tag": "forge:nuggets/gold" }
+      ],
+      "results": [{ "item": "pneumaticcraft:unassembled_pcb" }]
     }
   ],
-  "results": [{ "item": "pneumaticcraft:printed_circuit_board" }],
+  "results": [
+    { "item": "pneumaticcraft:printed_circuit_board", "chance": 80.0 },
+    { "item": "pneumaticcraft:failed_pcb", "chance": 20.0 }
+  ],
   "loops": 5
 }
