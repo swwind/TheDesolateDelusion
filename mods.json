@@ -1,0 +1,319 @@
+{
+  "minecraft": "1.18.2",
+  "mods": [
+    {
+      "id": 238222,
+      "name": "Just Enough Items (JEI)",
+      "client": true,
+      "server": true,
+      "fileId": 3885885
+    },
+    {
+      "id": 231275,
+      "name": "Ding",
+      "client": true,
+      "server": false
+    },
+    {
+      "id": 303657,
+      "name": "Kiwi 🥝 (Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 355467,
+      "name": "Fruit Trees 🍊",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 379887,
+      "name": "Passable Foliage 🌳 (Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 296028,
+      "name": "Lighting Wand 🌟 (Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 375272,
+      "name": "Lava Clear View (Forge)",
+      "client": true,
+      "server": false
+    },
+    {
+      "id": 233019,
+      "name": "AI Improvements",
+      "client": false,
+      "server": true
+    },
+    {
+      "id": 567403,
+      "name": "Lychee (Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 288885,
+      "name": "FastWorkbench",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 250702,
+      "name": "Just Enough Characters",
+      "client": true,
+      "server": true,
+      "fileId": 3896376
+    },
+    {
+      "id": 250363,
+      "name": "AutoRegLib",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 243121,
+      "name": "Quark",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 248787,
+      "name": "AppleSkin",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 271740,
+      "name": "Toast Control",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 223852,
+      "name": "Storage Drawers",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 354339,
+      "name": "Open Loader",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 241160,
+      "name": "NetherPortalFix",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 220318,
+      "name": "Biomes O' Plenty",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 563928,
+      "name": "TerraBlender (Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 381605,
+      "name": "Drawers Tooltip",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 328085,
+      "name": "Create",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 486392,
+      "name": "Flywheel",
+      "client": true,
+      "server": false
+    },
+    {
+      "id": 324717,
+      "name": "Jade 🔍",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 276951,
+      "name": "Comforts (Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 398521,
+      "name": "Farmer's Delight",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 412082,
+      "name": "Supplementaries",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 308989,
+      "name": "Caelus API (Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 309927,
+      "name": "Curios API (Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 317716,
+      "name": "Elytra Slot (Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 363820,
+      "name": "TerraForged",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 263420,
+      "name": "Xaero's Minimap",
+      "client": true,
+      "server": false
+    },
+    {
+      "id": 317780,
+      "name": "Xaero's World Map",
+      "client": true,
+      "server": false
+    },
+    {
+      "id": 353928,
+      "name": "Botany Pots",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 306549,
+      "name": "Tips",
+      "client": true,
+      "server": false
+    },
+    {
+      "id": 563495,
+      "name": "Immersive FX",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 361579,
+      "name": "spark",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 443570,
+      "name": "Diet (Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 308663,
+      "name": "Snow! Real Magic! ⛄ (Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 60089,
+      "name": "Mouse Tweaks",
+      "client": true,
+      "server": false
+    },
+    {
+      "id": 499326,
+      "name": "Item Stitching Fix",
+      "client": true,
+      "server": false
+    },
+    {
+      "id": 531761,
+      "name": "Balm (Forge Edition)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 283644,
+      "name": "Placebo",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 228525,
+      "name": "Bookshelf",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 499980,
+      "name": "Moonlight Lib",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 281849,
+      "name": "PneumaticCraft: Repressurized",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 549381,
+      "name": "Compressed Creativity",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 306770,
+      "name": "Patchouli",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 457570,
+      "name": "Configured",
+      "client": true,
+      "server": false
+    },
+    {
+      "id": 238086,
+      "name": "KubeJS",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 419699,
+      "name": "Architectury API (Fabric/Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 416294,
+      "name": "Rhino",
+      "client": true,
+      "server": true
+    }
+  ]
+}

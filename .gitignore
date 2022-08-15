@@ -1,0 +1,10 @@
+/.env
+/.vscode
+/.hmcl.json
+/HMCL-*.jar
+
+/.minecraft/*
+
+!/.minecraft/config
+!/.minecraft/defaultconfigs
+!/.minecraft/kubejs
