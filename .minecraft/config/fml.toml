@@ -1,7 +1,7 @@
 # Enable forge global version checking
-versionCheck = true
+versionCheck = false
+defaultConfigPath = "defaultconfigs"
 # does the splashscreen run
 splashscreen = true
-defaultConfigPath = "defaultconfigs"
 maxThreads = -1
 

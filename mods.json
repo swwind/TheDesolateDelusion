@@ -314,6 +314,30 @@
       "name": "Rhino",
       "client": true,
       "server": true
+    },
+    {
+      "id": 372534,
+      "name": "Pam's HarvestCraft 2 - Food Core",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 361385,
+      "name": "Pam's HarvestCraft 2 - Crops",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 365460,
+      "name": "Pam's HarvestCraft 2 - Trees",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 402231,
+      "name": "Pam's HarvestCraft 2 - Food Extended",
+      "client": true,
+      "server": true
     }
   ]
 }

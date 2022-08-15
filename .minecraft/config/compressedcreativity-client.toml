@@ -8,8 +8,8 @@
 		block_tracker_advanced_check = false
 		#Tooltip mode
 		#Allowed Values: CLASSIC, WIDGET, BOTH, NONE
-		tooltip_mode = "CLASSIC"
+		tooltip_mode = "BOTH"
 		#Block Tracker mode
 		#Allowed Values: ALL, GOGGLES, TOOLTIP, MIN
-		block_tracker_mode = "ALL"
+		block_tracker_mode = "MIN"
 

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "storagedrawers:full_drawers_1",
+      "nbt": {
+        "tile": {
+          "Drawers": [
+            {
+              "Item": { "id": "quark:dragon_scale" },
+              "Count": 2048
+            }
+          ],
+          "Upgrades": []
+        }
+      }
+    }
+  ],
+  "results": [{ "item": "kubejs:bilibili_television" }]
+}

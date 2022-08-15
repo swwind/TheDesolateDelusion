@@ -1,0 +1,8 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "minecraft:cobblestone" },
+    { "item": "minecraft:diorite" }
+  ],
+  "results": [{ "item": "minecraft:andesite" }]
+}

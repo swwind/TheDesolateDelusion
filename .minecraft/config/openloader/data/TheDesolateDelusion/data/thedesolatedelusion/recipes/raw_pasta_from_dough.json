@@ -1,16 +1,5 @@
 {
   "type": "create:deploying",
-  "ingredients": [
-    {
-      "tag": "forge:dough"
-    },
-    {
-      "tag": "forge:tools/knives"
-    }
-  ],
-  "results": [
-    {
-      "item": "farmersdelight:raw_pasta"
-    }
-  ]
+  "ingredients": [{ "tag": "forge:dough" }, { "tag": "forge:tools/knives" }],
+  "results": [{ "item": "farmersdelight:raw_pasta" }]
 }
