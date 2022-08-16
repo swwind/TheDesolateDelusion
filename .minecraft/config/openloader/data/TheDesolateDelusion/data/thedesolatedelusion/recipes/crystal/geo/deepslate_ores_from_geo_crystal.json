@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    { "item": "minecraft:deepslate_stone" },
+    { "item": "kubejs:geo_crystal" }
+  ],
+  "results": [
+    { "item": "minecraft:deepslate_iron_ore", "chance": 0.1 },
+    { "item": "minecraft:deepslate_copper_ore", "chance": 0.1 },
+    { "item": "minecraft:deepslate_gold_ore", "chance": 0.1 },
+    { "item": "minecraft:deepslate_redstone_ore", "chance": 0.3 },
+    { "item": "minecraft:deepslate_lapis_ore", "chance": 0.3 },
+    { "item": "create:deepslate_zinc_ore", "chance": 0.1 }
+  ],
+  "keepHeldItem": true
+}

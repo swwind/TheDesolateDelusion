@@ -1,0 +1,5 @@
+{
+  "type": "create:pressing",
+  "ingredients": [{ "item": "minecraft:stone" }],
+  "results": [{ "item": "minecraft:deepslate_stone" }]
+}

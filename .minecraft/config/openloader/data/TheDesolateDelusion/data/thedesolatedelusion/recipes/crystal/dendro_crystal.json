@@ -3,7 +3,7 @@
   "ingredients": [
     {
       "type": "drawerstooltip:standard",
-      "content": { "item": "minecraft:grass_block" },
+      "content": { "item": "minecraft:moss_block" },
       "amount": 256
     }
   ],

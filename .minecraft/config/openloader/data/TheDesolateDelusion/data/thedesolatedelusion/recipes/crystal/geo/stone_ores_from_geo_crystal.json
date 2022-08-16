@@ -1,0 +1,14 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    { "item": "minecraft:stone" },
+    { "item": "kubejs:geo_crystal" }
+  ],
+  "results": [
+    { "item": "minecraft:iron_ore", "chance": 0.25 },
+    { "item": "minecraft:copper_ore", "chance": 0.25 },
+    { "item": "minecraft:gold_ore", "chance": 0.25 },
+    { "item": "create:zinc_ore", "chance": 0.25 }
+  ],
+  "keepHeldItem": true
+}

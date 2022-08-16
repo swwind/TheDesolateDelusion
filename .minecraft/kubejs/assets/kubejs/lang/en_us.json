@@ -12,11 +12,11 @@
   "item.kubejs.hydro_crystal": "Hydro Crystal",
   "item.kubejs.pyro_crystal": "Pyro Crystal",
 
-  "item.kubejs.anemo_crystal.tip": "§3§oRight now I wish I was sat at the top of a tree, looking out over a meadow, cider in hand... *sigh*",
+  "item.kubejs.anemo_crystal.tip": "§3From Venti's favor\n§3doesn't offer any help",
   "item.kubejs.cryo_crystal.tip": "Cryo Crystal",
-  "item.kubejs.dendro_crystal.tip": "Dendro Crystal",
-  "item.kubejs.electro_crystal.tip": "Electro Crystal",
-  "item.kubejs.geo_crystal.tip": "Geo Crystal",
+  "item.kubejs.dendro_crystal.tip": "§aFrom Nahida's favor\n§aripening crops without consuming",
+  "item.kubejs.electro_crystal.tip": "§dFrom Ei's favor\n§dbut she doesn't know how to cook",
+  "item.kubejs.geo_crystal.tip": "§6From Morax's favor\n§6turning stones into ores",
   "item.kubejs.hydro_crystal.tip": "Hydro Crystal",
   "item.kubejs.pyro_crystal.tip": "Pyro Crystal",
 

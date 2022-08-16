@@ -1,0 +1,12 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    { "item": "minecraft:netherrack" },
+    { "item": "kubejs:geo_crystal" }
+  ],
+  "results": [
+    { "item": "minecraft:nether_gold_ore", "chance": 0.5 },
+    { "item": "minecraft:nether_quartz_ore", "chance": 0.5 }
+  ],
+  "keepHeldItem": true
+}

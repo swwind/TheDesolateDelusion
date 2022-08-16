@@ -1,4 +1,5 @@
 {
   "item.quark.dragon_scale.tip": "§e击杀末影龙时掉落",
-  "block.supplementaries.ash.tip": "§e原木被火烧毁后的产物"
+  "block.supplementaries.ash.tip": "§e原木被火烧毁后的产物",
+  "block.minecraft.player_head.tip": "§e命名后的雪傀儡被女巫击杀之后掉落"
 }
