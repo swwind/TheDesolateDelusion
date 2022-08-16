@@ -1,8 +1,8 @@
 // priority: 0
 
-console.info('Hello, World! (You will see this line every time client resources reload)')
+console.info("The Desolate Delusion: Client scripts loading!");
 
-onEvent('jei.hide.items', event => {
-	// Hide items in JEI here
-	// event.hide('minecraft:cobblestone')
-})
+onEvent("jei.hide.items", (event) => {
+  event.hide("farmersdelight:wheat_dough");
+  event.hide("pneumaticcraft:wheat_flour");
+});

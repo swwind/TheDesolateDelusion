@@ -38,7 +38,11 @@ export async function downloadMod(
             new Date(a.fileDate).getTime() - new Date(b.fileDate).getTime()
         )
         .at(-1);
-  if (!latest) throw new Error(`No release found for ${mod.name}`);
+
+  if (!latest) {
+    console.log(files.data);
+    throw new Error(`No release found for ${mod.name}`);
+  }
 
   const filename = `.minecraft/mods/${latest.fileName}`;
   if (!installedMods.includes(latest.fileName)) {

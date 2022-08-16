@@ -1,9 +1,9 @@
 {
   "type": "create:item_application",
   "ingredients": [
-    { "item": "minecraft:netherrack" },
+    { "item": "minecraft:blue_concrete" },
     { "item": "kubejs:geo_crystal" }
   ],
-  "results": [{ "item": "minecraft:nether_quartz_ore" }],
+  "results": [{ "item": "minecraft:lapis_block" }],
   "keepHeldItem": true
 }

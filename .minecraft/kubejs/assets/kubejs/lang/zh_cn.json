@@ -21,5 +21,10 @@
   "item.kubejs.pyro_crystal.tip": "火元素结晶",
 
   "item.kubejs.primogem": "原石",
-  "item.kubejs.intertwined_fate": "纠缠之缘"
+  "item.kubejs.intertwined_fate": "纠缠之缘",
+
+  "block.pneumaticcraft.pressure_chamber_wall.tip": "§e凋灵无法破坏这个方块",
+  "block.pneumaticcraft.pressure_chamber_glass.tip": "§e凋灵无法破坏这个方块",
+  "block.pneumaticcraft.pressure_chamber_valve.tip": "§e凋灵无法破坏这个方块",
+  "block.pneumaticcraft.pressure_chamber_interface.tip": "§e凋灵无法破坏这个方块"
 }

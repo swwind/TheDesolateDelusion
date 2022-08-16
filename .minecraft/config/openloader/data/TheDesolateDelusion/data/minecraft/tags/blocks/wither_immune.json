@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "pneumaticcraft:pressure_chamber_glass",
+    "pneumaticcraft:pressure_chamber_wall",
+    "pneumaticcraft:pressure_chamber_valve",
+    "pneumaticcraft:pressure_chamber_interface"
+  ]
+}

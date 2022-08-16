@@ -8,13 +8,13 @@
     {
       "fluid": "minecraft:water",
       "nbt": {},
-      "amount": 250
+      "amount": 10
     }
   ],
   "results": [
     {
       "fluid": "create:honey",
-      "amount": 250
+      "amount": 10
     }
   ],
   "heatRequirement": "heated"
