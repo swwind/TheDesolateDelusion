@@ -44,12 +44,6 @@
       "server": true
     },
     {
-      "id": 567403,
-      "name": "Lychee (Forge)",
-      "client": true,
-      "server": true
-    },
-    {
       "id": 288885,
       "name": "FastWorkbench",
       "client": true,
@@ -70,6 +64,12 @@
     {
       "id": 243121,
       "name": "Quark",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 301051,
+      "name": "Quark Oddities",
       "client": true,
       "server": true
     },
@@ -326,12 +326,6 @@
       "server": true
     },
     {
-      "id": 301051,
-      "name": "Quark Oddities",
-      "client": true,
-      "server": true
-    },
-    {
       "id": 359540,
       "name": "Macaw's Furniture",
       "client": true,
@@ -374,18 +368,6 @@
       "server": true
     },
     {
-      "id": 247560,
-      "name": "Oh The Biomes You'll Go",
-      "client": true,
-      "server": true
-    },
-    {
-      "id": 535960,
-      "name": "Macaw's Bridges - Oh The Biomes You'll Go",
-      "client": true,
-      "server": true
-    },
-    {
       "id": 533382,
       "name": "Macaw's Bridges - Biome O' Plenty",
       "client": true,
@@ -398,22 +380,46 @@
       "server": true
     },
     {
-      "id": 620582,
-      "name": "Macaw's Fences - Oh The Biomes You'll Go",
-      "client": true,
-      "server": true
-    },
-    {
       "id": 558344,
       "name": "Macaw's Roofs - Biomes O' Plenty",
       "client": true,
       "server": true
     },
     {
-      "id": 577356,
-      "name": "Macaw's Roofs - Oh The Biomes You'll Go",
+      "id": 574856,
+      "name": "Rubidium",
       "client": true,
       "server": true
+    },
+    {
+      "id": 581495,
+      "name": "Oculus",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 602059,
+      "name": "Friends&Foes (Forge)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 463155,
+      "name": "Falling Leaves (Forge)",
+      "client": true,
+      "server": false
+    },
+    {
+      "id": 591666,
+      "name": "Overweight Farming",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 570544,
+      "name": "Eating Animation [Forge]",
+      "client": true,
+      "server": false
     }
   ]
 }
