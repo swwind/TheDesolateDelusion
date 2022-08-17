@@ -1,10 +1,10 @@
 contributorCosmetic = ""
 #Show customized tooltips from any item. Mainly for pack devs
 globalTooltip = true
-noMicrosoftTelemetry = true
 #Max line width shown in description of tooltips
 #Range: > 50
 tooltipWrapWidth = 200
+noMicrosoftTelemetry = true
 
 [debug]
 	#Show item tags in advanced tooltips

@@ -3,12 +3,12 @@
     "horse_inventory": true,
     "total_ench_power": true,
     "chicken_egg": true,
-    "horse_stat": true,
     "jukebox": true,
+    "horse_stat": true,
     "brewing_stand": true,
     "animal_owner": false,
-    "inventory": true,
     "note_block": true,
+    "inventory": true,
     "beehive": true,
     "player_head": true,
     "lectern": true,
@@ -33,14 +33,6 @@
     "spawner_type": true,
     "redstone": true,
     "fe": true
-  },
-  "mekanism": {
-    "infuse_type": true,
-    "gas": true,
-    "pigment": true,
-    "fluid": true,
-    "slurry": true,
-    "energy": true
   },
   "jade": {
     "block_states": false,

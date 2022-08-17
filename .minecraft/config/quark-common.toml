@@ -1649,7 +1649,7 @@
 
 	[oddities.backpack]
 		#Set this to true to allow the backpacks to be unequipped even with items in them
-		"Super Op Mode" = false
+		"Super Op Mode" = true
 		"Enable Ravager Hide" = true
 		"Items In Backpack Tick" = true
 		"Base Ravager Hide Drop" = 1
