@@ -2,6 +2,6 @@
 versionCheck = false
 defaultConfigPath = "defaultconfigs"
 # does the splashscreen run
-splashscreen = true
+splashscreen = false
 maxThreads = -1
 

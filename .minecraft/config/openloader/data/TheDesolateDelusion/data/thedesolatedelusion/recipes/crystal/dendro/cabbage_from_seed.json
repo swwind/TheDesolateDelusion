@@ -1,0 +1,36 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "farmersdelight:cabbage_seeds" },
+  "transitionalItem": { "item": "farmersdelight:cabbage_seeds" },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "farmersdelight:cabbage_seeds" },
+        { "item": "kubejs:dendro_crystal" }
+      ],
+      "results": [{ "item": "farmersdelight:cabbage_seeds" }],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "farmersdelight:cabbage_seeds" },
+        { "fluid": "minecraft:water", "nbt": {}, "amount": 250 }
+      ],
+      "results": [{ "item": "farmersdelight:cabbage_seeds" }],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "farmersdelight:cabbage_seeds" },
+        { "fluid": "minecraft:water", "nbt": {}, "amount": 250 }
+      ],
+      "results": [{ "item": "farmersdelight:cabbage_seeds" }],
+      "keepHeldItem": true
+    }
+  ],
+  "results": [{ "item": "farmersdelight:cabbage" }],
+  "loops": 1
+}

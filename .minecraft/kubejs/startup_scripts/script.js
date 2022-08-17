@@ -16,12 +16,3 @@ onEvent("item.registry", (event) => {
   event.create("primogem").rarity("rare");
   event.create("intertwined_fate").rarity("rare");
 });
-
-onEvent("block.modification", (event) => {
-  const antiWither = (block) => block.explosionResistance = 2000;
-
-  event.modify("pneumaticcraft:pressure_chamber_glass", antiWither);
-  event.modify("pneumaticcraft:pressure_chamber_wall", antiWither);
-  event.modify("pneumaticcraft:pressure_chamber_valve", antiWither);
-  event.modify("pneumaticcraft:pressure_chamber_interface", antiWither);
-});

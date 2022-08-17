@@ -1,0 +1,36 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "minecraft:beetroot_seeds" },
+  "transitionalItem": { "item": "minecraft:beetroot_seeds" },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:beetroot_seeds" },
+        { "item": "kubejs:dendro_crystal" }
+      ],
+      "results": [{ "item": "minecraft:beetroot_seeds" }],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "minecraft:beetroot_seeds" },
+        { "fluid": "minecraft:water", "nbt": {}, "amount": 250 }
+      ],
+      "results": [{ "item": "minecraft:beetroot_seeds" }],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "minecraft:beetroot_seeds" },
+        { "fluid": "minecraft:water", "nbt": {}, "amount": 250 }
+      ],
+      "results": [{ "item": "minecraft:beetroot_seeds" }],
+      "keepHeldItem": true
+    }
+  ],
+  "results": [{ "item": "minecraft:beetroot" }],
+  "loops": 1
+}

@@ -12,9 +12,9 @@
   "item.kubejs.hydro_crystal": "水元素结晶",
   "item.kubejs.pyro_crystal": "火元素结晶",
 
-  "item.kubejs.anemo_crystal.tip": "§3来自温迪的眷顾\n§3§o「诶嘿」",
+  "item.kubejs.anemo_crystal.tip": "§3来自温迪的眷顾\n§3§o“诶嘿”",
   "item.kubejs.cryo_crystal.tip": "冰元素结晶",
-  "item.kubejs.dendro_crystal.tip": "§a来自纳西妲的眷顾\n§a可以无限催熟农作物",
+  "item.kubejs.dendro_crystal.tip": "§a来自纳西妲的眷顾\n§a可以让种子焕发生机",
   "item.kubejs.electro_crystal.tip": "§d来自雷电影的眷顾\n§d但是她不会做饭",
   "item.kubejs.geo_crystal.tip": "§6来自钟离的眷顾\n§6可以点石成金",
   "item.kubejs.hydro_crystal.tip": "水元素结晶",
@@ -23,8 +23,5 @@
   "item.kubejs.primogem": "原石",
   "item.kubejs.intertwined_fate": "纠缠之缘",
 
-  "block.pneumaticcraft.pressure_chamber_wall.tip": "§e凋灵无法破坏这个方块",
-  "block.pneumaticcraft.pressure_chamber_glass.tip": "§e凋灵无法破坏这个方块",
-  "block.pneumaticcraft.pressure_chamber_valve.tip": "§e凋灵无法破坏这个方块",
-  "block.pneumaticcraft.pressure_chamber_interface.tip": "§e凋灵无法破坏这个方块"
+  "block.minecraft.crying_obsidian.tip": "§e凋灵无法破坏这个方块"
 }

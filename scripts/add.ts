@@ -1,4 +1,5 @@
-import { Modpack } from "./types.ts";
+import { downloadMod, getInstalledMods } from "./download.ts";
+import { Mod, Modpack } from "./types.ts";
 import { request } from "./utils.ts";
 
 const modpack = JSON.parse(await Deno.readTextFile("./mods.json")) as Modpack;
@@ -22,15 +23,18 @@ if (modpack.mods.find((mod) => mod.id === id)) {
   throw new Error("Mod already exists");
 }
 
-const json = await request(`/v1/mods/${id}`);
+const json = await request<{ data: { name: string } }>(`/v1/mods/${id}`);
 
-modpack.mods.push({
+const mod: Mod = {
   id,
   name: json.data.name,
   client,
   server,
-});
+};
 
-console.log(`Added ${json.data.name}`);
+console.log(`Adding ${json.data.name}`);
 
+await downloadMod(modpack.minecraft, mod, await getInstalledMods());
+
+modpack.mods.push(mod);
 await Deno.writeTextFile("./mods.json", JSON.stringify(modpack, null, 2));

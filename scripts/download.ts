@@ -10,6 +10,13 @@ const FILTER = {
   server: (mod: Mod) => mod.server,
 };
 
+export async function getInstalledMods() {
+  await Deno.mkdir(".minecraft/mods", { recursive: true });
+  return Array.from(Deno.readDirSync(".minecraft/mods"))
+    .filter((file) => file.isFile)
+    .map((file) => file.name);
+}
+
 export async function downloadMod(
   minecraft: string,
   mod: Mod,
@@ -66,10 +73,7 @@ export async function downloadModpack(
   modpack: Modpack,
   target: DownloadTarget
 ) {
-  await Deno.mkdir(".minecraft/mods", { recursive: true });
-  const installed = Array.from(Deno.readDirSync(".minecraft/mods"))
-    .filter((file) => file.isFile)
-    .map((file) => file.name);
+  const installed = await getInstalledMods();
   const checked = [];
 
   for (const mod of modpack.mods.filter(FILTER[target])) {

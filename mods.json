@@ -38,12 +38,6 @@
       "server": true
     },
     {
-      "id": 375272,
-      "name": "Lava Clear View (Forge)",
-      "client": true,
-      "server": false
-    },
-    {
       "id": 233019,
       "name": "AI Improvements",
       "client": false,
@@ -200,12 +194,6 @@
       "server": false
     },
     {
-      "id": 353928,
-      "name": "Botany Pots",
-      "client": true,
-      "server": true
-    },
-    {
       "id": 306549,
       "name": "Tips",
       "client": true,
@@ -266,18 +254,6 @@
       "server": true
     },
     {
-      "id": 281849,
-      "name": "PneumaticCraft: Repressurized",
-      "client": true,
-      "server": true
-    },
-    {
-      "id": 306770,
-      "name": "Patchouli",
-      "client": true,
-      "server": true
-    },
-    {
       "id": 457570,
       "name": "Configured",
       "client": true,
@@ -298,6 +274,144 @@
     {
       "id": 416294,
       "name": "Rhino",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 558850,
+      "name": "Compat O' Plenty",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 382216,
+      "name": "Blueprint",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 337396,
+      "name": "Boatload",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 250398,
+      "name": "Controlling",
+      "client": true,
+      "server": false
+    },
+    {
+      "id": 252848,
+      "name": "Nature's Compass",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 240630,
+      "name": "Just Enough Resources (JER)",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 351725,
+      "name": "Macaw's Bridges",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 453925,
+      "name": "Macaw's Fences and Walls",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 301051,
+      "name": "Quark Oddities",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 359540,
+      "name": "Macaw's Furniture",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 378646,
+      "name": "Macaw's Doors",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 363569,
+      "name": "Macaw's Windows",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 352039,
+      "name": "Macaw's Roofs",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 400933,
+      "name": "Macaw's Trapdoors",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 502372,
+      "name": "Macaw's Lights and Lamps",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 438116,
+      "name": "Macaw's Paintings",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 247560,
+      "name": "Oh The Biomes You'll Go",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 535960,
+      "name": "Macaw's Bridges - Oh The Biomes You'll Go",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 533382,
+      "name": "Macaw's Bridges - Biome O' Plenty",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 605641,
+      "name": "Macaw's Fences - Biomes O' Plenty",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 620582,
+      "name": "Macaw's Fences - Oh The Biomes You'll Go",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 558344,
+      "name": "Macaw's Roofs - Biomes O' Plenty",
+      "client": true,
+      "server": true
+    },
+    {
+      "id": 577356,
+      "name": "Macaw's Roofs - Oh The Biomes You'll Go",
       "client": true,
       "server": true
     }

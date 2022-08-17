@@ -1,0 +1,36 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "minecraft:pumpkin_seeds" },
+  "transitionalItem": { "item": "minecraft:pumpkin_seeds" },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:pumpkin_seeds" },
+        { "item": "kubejs:dendro_crystal" }
+      ],
+      "results": [{ "item": "minecraft:pumpkin_seeds" }],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "minecraft:pumpkin_seeds" },
+        { "fluid": "minecraft:water", "nbt": {}, "amount": 250 }
+      ],
+      "results": [{ "item": "minecraft:pumpkin_seeds" }],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "minecraft:pumpkin_seeds" },
+        { "fluid": "minecraft:water", "nbt": {}, "amount": 250 }
+      ],
+      "results": [{ "item": "minecraft:pumpkin_seeds" }],
+      "keepHeldItem": true
+    }
+  ],
+  "results": [{ "item": "minecraft:pumpkin" }],
+  "loops": 1
+}

@@ -14,7 +14,7 @@
 
   "item.kubejs.anemo_crystal.tip": "§3From Venti's favor\n§3doesn't offer any help",
   "item.kubejs.cryo_crystal.tip": "Cryo Crystal",
-  "item.kubejs.dendro_crystal.tip": "§aFrom Nahida's favor\n§aripening crops without consuming",
+  "item.kubejs.dendro_crystal.tip": "§aFrom Nahida's favor\n§abringing seeds to life",
   "item.kubejs.electro_crystal.tip": "§dFrom Ei's favor\n§dbut she doesn't know how to cook",
   "item.kubejs.geo_crystal.tip": "§6From Morax's favor\n§6turning stones into ores",
   "item.kubejs.hydro_crystal.tip": "Hydro Crystal",
@@ -23,8 +23,5 @@
   "item.kubejs.primogem": "Primogem",
   "item.kubejs.intertwined_fate": "Intertwined Fate",
 
-  "block.pneumaticcraft.pressure_chamber_wall.tip": "§eWithers cannot destory this block",
-  "block.pneumaticcraft.pressure_chamber_glass.tip": "§eWithers cannot destory this block",
-  "block.pneumaticcraft.pressure_chamber_valve.tip": "§eWithers cannot destory this block",
-  "block.pneumaticcraft.pressure_chamber_interface.tip": "§eWithers cannot destory this block"
+  "block.minecraft.crying_obsidian.tip": "§eWithers cannot destory this block"
 }

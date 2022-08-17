@@ -1,0 +1,36 @@
+{
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "minecraft:wheat_seeds" },
+  "transitionalItem": { "item": "minecraft:wheat_seeds" },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:wheat_seeds" },
+        { "item": "kubejs:dendro_crystal" }
+      ],
+      "results": [{ "item": "minecraft:wheat_seeds" }],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "minecraft:wheat_seeds" },
+        { "fluid": "minecraft:water", "nbt": {}, "amount": 250 }
+      ],
+      "results": [{ "item": "minecraft:wheat_seeds" }],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "minecraft:wheat_seeds" },
+        { "fluid": "minecraft:water", "nbt": {}, "amount": 250 }
+      ],
+      "results": [{ "item": "minecraft:wheat_seeds" }],
+      "keepHeldItem": true
+    }
+  ],
+  "results": [{ "item": "minecraft:wheat" }],
+  "loops": 1
+}
