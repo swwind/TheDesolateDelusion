@@ -1,6 +1,10 @@
-import { downloadMod, getInstalledMods } from "./download.ts";
-import { Mod, Modpack } from "./types.ts";
-import { request } from "./utils.ts";
+import {
+  checkHash,
+  downloadModFile,
+  getModFiles,
+  Modpack,
+  request,
+} from "./utils.ts";
 
 const modpack = JSON.parse(await Deno.readTextFile("./mods.json")) as Modpack;
 
@@ -24,17 +28,26 @@ if (modpack.mods.find((mod) => mod.id === id)) {
 }
 
 const json = await request<{ data: { name: string } }>(`/v1/mods/${id}`);
+const name = json.data.name;
 
-const mod: Mod = {
-  id,
-  name: json.data.name,
-  client,
-  server,
-};
+console.log(`==> Installing ${name}...`);
 
-console.log(`Adding ${json.data.name}`);
+const files = await getModFiles(modpack.minecraft, id);
+const latest = files.data
+  .filter((file) => file.isAvailable)
+  .sort(
+    (a, b) => new Date(a.fileDate).getTime() - new Date(b.fileDate).getTime()
+  )
+  .at(-1);
 
-await downloadMod(modpack.minecraft, mod, await getInstalledMods());
+if (!latest || !latest.downloadUrl) {
+  throw new Error(`No release found for ${name}`);
+}
 
-modpack.mods.push(mod);
+console.log(`==> Downloading ${latest.fileName}...`);
+
+await downloadModFile(latest.downloadUrl, latest.fileName);
+await checkHash(latest.fileName, latest.hashes);
+
+modpack.mods.push({ id, name, client, server, fileId: latest.id });
 await Deno.writeTextFile("./mods.json", JSON.stringify(modpack, null, 2));
