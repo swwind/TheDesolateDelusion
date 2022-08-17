@@ -44,8 +44,6 @@ if (!latest || !latest.downloadUrl) {
   throw new Error(`No release found for ${name}`);
 }
 
-console.log(`==> Downloading ${latest.fileName}...`);
-
 await downloadModFile(latest.downloadUrl, latest.fileName);
 await checkHash(latest.fileName, latest.hashes);
 

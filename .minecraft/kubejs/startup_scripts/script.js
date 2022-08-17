@@ -16,7 +16,7 @@ onEvent("item.registry", (event) => {
   event.create("anemo_crystal").rarity("uncommon");
   event.create("geo_crystal").rarity("uncommon");
 
-  event.create("primogem").rarity("rare");
+  event.create("primogem").rarity("rare").glow(true);
   event.create("intertwined_fate").rarity("rare");
 });
 
