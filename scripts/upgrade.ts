@@ -1,9 +1,17 @@
-import { checkHash, downloadModFile, getModFiles, Modpack } from "./utils.ts";
+import {
+  checkHash,
+  downloadModFile,
+  getInstalledMods,
+  getModFiles,
+  Modpack,
+} from "./utils.ts";
 
 const modpack = JSON.parse(await Deno.readTextFile("./mods.json")) as Modpack;
 let updated = 0;
+const installed = await getInstalledMods();
+const checked = [];
 
-for (const mod of modpack.mods) {
+for (const mod of modpack.mods.filter((mod) => mod.client)) {
   console.log(`==> Checking updates for ${mod.name}...`);
   const files = await getModFiles(modpack.minecraft, mod.id);
   const latest = files.data
@@ -13,11 +21,16 @@ for (const mod of modpack.mods) {
     )
     .at(-1);
 
+  console.log(
+    files.data.map((file) => `${file.fileName}: ${file.fileDate}`).join("\n")
+  );
+
   if (!latest) {
     throw new Error(`No release found for ${mod.name}`);
   }
 
   if (mod.fileId === latest.id) {
+    checked.push(latest.fileName);
     continue;
   }
 
@@ -28,7 +41,15 @@ for (const mod of modpack.mods) {
 
   mod.fileId = latest.id;
   updated = updated + 1;
+  checked.push(latest.fileName);
 }
 
 console.log(`==> Updated ${updated} mods`);
 await Deno.writeTextFile("./mods.json", JSON.stringify(modpack, null, 2));
+
+for (const outofdate of installed) {
+  if (!checked.includes(outofdate)) {
+    console.log(`==> Removing ${outofdate}...`);
+    await Deno.remove(outofdate);
+  }
+}
