@@ -6,7 +6,7 @@
       "name": "Just Enough Items (JEI)",
       "client": true,
       "server": true,
-      "fileId": 3940240
+      "fileId": 3904349
     },
     {
       "id": 231275,
@@ -497,13 +497,6 @@
       "client": true,
       "server": true,
       "fileId": 3806807
-    },
-    {
-      "id": 567403,
-      "name": "Lychee (Forge)",
-      "client": true,
-      "server": true,
-      "fileId": 3901696
     },
     {
       "id": 353942,

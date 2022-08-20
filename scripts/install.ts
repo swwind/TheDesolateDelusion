@@ -16,7 +16,6 @@ for (const mod of modpack.mods.filter((mod) => mod.client)) {
   if (!installed.includes(fileinfo.data.fileName)) {
     if (!fileinfo.data.downloadUrl)
       throw new Error(`No release found for ${mod.name}`);
-    console.log(`==> Downloading ${fileinfo.data.fileName}`);
     await downloadModFile(fileinfo.data.downloadUrl, fileinfo.data.fileName);
   }
   await checkHash(fileinfo.data.fileName, fileinfo.data.hashes);
