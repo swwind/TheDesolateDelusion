@@ -1,4 +1,28 @@
 {
-  "item.quark.dragon_scale.tip": "§e击杀末影龙时掉落",
-  "block.supplementaries.ash.tip": "§e原木被火烧毁后的产物"
+  "block.minecraft.crying_obsidian.tip": "§e凋灵无法破坏这个方块",
+
+  "advancement.thedesolatedelusion.root": "全新的开始",
+  "advancement.thedesolatedelusion.root.desc": "欢迎来到 The Desolate Delusion!",
+
+  "advancement.thedesolatedelusion.ash": "放火烧山，牢底坐穿",
+  "advancement.thedesolatedelusion.ash.desc": "从烧毁的木头中获得一些灰烬",
+  "advancement.thedesolatedelusion.apple_cider": "苹果酒",
+  "advancement.thedesolatedelusion.apple_cider.desc": "酿造一些苹果酒",
+  "advancement.thedesolatedelusion.burning_blossom": "火焰花",
+  "advancement.thedesolatedelusion.burning_blossom.desc": "获取一些火焰花",
+  "advancement.thedesolatedelusion.prismarine": "海晶石",
+  "advancement.thedesolatedelusion.prismarine.desc": "获取一些海晶石碎片",
+
+  "advancement.thedesolatedelusion.geo_crystal": "岩元素结晶",
+  "advancement.thedesolatedelusion.geo_crystal.desc": "使用矿物锭合成一个岩元素结晶",
+  "advancement.thedesolatedelusion.anemo_crystal": "风元素结晶",
+  "advancement.thedesolatedelusion.anemo_crystal.desc": "使用苹果酒换取一个风元素结晶",
+  "advancement.thedesolatedelusion.dendro_crystal": "草元素结晶",
+  "advancement.thedesolatedelusion.dendro_crystal.desc": "使用农作物提取一个草元素结晶",
+  "advancement.thedesolatedelusion.pyro_crystal": "火元素结晶",
+  "advancement.thedesolatedelusion.pyro_crystal.desc": "使用火焰花培育一个火元素结晶",
+  "advancement.thedesolatedelusion.hydro_crystal": "水元素结晶",
+  "advancement.thedesolatedelusion.hydro_crystal.desc": "使用海晶石浓缩一个水元素结晶",
+  "advancement.thedesolatedelusion.cryo_crystal": "冰元素结晶",
+  "advancement.thedesolatedelusion.cryo_crystal.desc": "使用冰和雪凝结一个冰元素结晶"
 }

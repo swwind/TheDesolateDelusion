@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:root",
+  "display": {
+    "icon": {
+      "item": "farmersdelight:apple_cider"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.apple_cider"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.apple_cider.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["farmersdelight:apple_cider"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}

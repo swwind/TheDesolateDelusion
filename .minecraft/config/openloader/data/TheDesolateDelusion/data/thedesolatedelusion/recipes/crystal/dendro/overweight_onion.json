@@ -1,0 +1,9 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    { "item": "farmersdelight:onion" },
+    { "item": "kubejs:dendro_crystal" }
+  ],
+  "results": [{ "item": "overweight_farming:overweight_onion_block" }],
+  "keepHeldItem": true
+}

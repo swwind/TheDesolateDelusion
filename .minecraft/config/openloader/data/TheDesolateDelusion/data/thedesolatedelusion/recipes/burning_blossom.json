@@ -1,0 +1,10 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "tag": "minecraft:small_flowers" },
+    { "tag": "minecraft:small_flowers" },
+    { "item": "minecraft:blaze_powder" }
+  ],
+  "results": [{ "item": "biomesoplenty:burning_blossom", "count": 2 }],
+  "heatRequirement": "superheated"
+}

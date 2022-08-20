@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:powder_snow",
+  "display": {
+    "icon": {
+      "item": "kubejs:cryo_crystal"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.cryo_crystal"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.cryo_crystal.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["kubejs:cryo_crystal"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}

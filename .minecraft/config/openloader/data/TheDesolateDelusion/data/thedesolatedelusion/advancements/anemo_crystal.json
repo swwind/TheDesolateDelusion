@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:apple_cider",
+  "display": {
+    "icon": {
+      "item": "kubejs:anemo_crystal"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.anemo_crystal"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.anemo_crystal.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["kubejs:anemo_crystal"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}

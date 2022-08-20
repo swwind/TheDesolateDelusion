@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:prismarine",
+  "display": {
+    "icon": {
+      "item": "kubejs:hydro_crystal"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.hydro_crystal"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.hydro_crystal.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["kubejs:hydro_crystal"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}

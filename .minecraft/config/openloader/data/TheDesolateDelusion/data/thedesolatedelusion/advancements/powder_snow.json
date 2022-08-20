@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:powder_snow_bucket"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.powder_snow"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.powder_snow.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:powder_snow_bucket"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}

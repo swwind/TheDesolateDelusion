@@ -1,4 +1,28 @@
 {
-  "item.quark.dragon_scale.tip": "§eDrops when the ender dragon is killed",
-  "block.supplementaries.ash.tip": "§eThe product of logs burned by fire"
+  "block.minecraft.crying_obsidian.tip": "§eWithers cannot destory this block",
+
+  "advancement.thedesolatedelusion.root": "A brand new start",
+  "advancement.thedesolatedelusion.root.desc": "Welcome to The Desolate Delusion!",
+
+  "advancement.thedesolatedelusion.ash": "Ash",
+  "advancement.thedesolatedelusion.ash.desc": "Get some ashes from burning wood",
+  "advancement.thedesolatedelusion.apple_cider": "Apple Cider",
+  "advancement.thedesolatedelusion.apple_cider.desc": "Brew some apple cider",
+  "advancement.thedesolatedelusion.burning_blossom": "Burning Blossom",
+  "advancement.thedesolatedelusion.burning_blossom.desc": "Get some burning blossoms",
+  "advancement.thedesolatedelusion.prismarine": "Prismarine Crystals",
+  "advancement.thedesolatedelusion.prismarine.desc": "Get some prismarine crystals",
+
+  "advancement.thedesolatedelusion.geo_crystal": "Geo Crystal",
+  "advancement.thedesolatedelusion.geo_crystal.desc": "Craft a Geo Crystal from ingots",
+  "advancement.thedesolatedelusion.anemo_crystal": "Anemo Crystal",
+  "advancement.thedesolatedelusion.anemo_crystal.desc": "Craft a Anemo Crystal from apple cider",
+  "advancement.thedesolatedelusion.dendro_crystal": "Dendro Crystal",
+  "advancement.thedesolatedelusion.dendro_crystal.desc": "Craft a Dendro Crystal from crops",
+  "advancement.thedesolatedelusion.pyro_crystal": "Pyro Crystal",
+  "advancement.thedesolatedelusion.pyro_crystal.desc": "Craft a Pyro Crystal from lava and blaze rods",
+  "advancement.thedesolatedelusion.hydro_crystal": "Hydro Crystal",
+  "advancement.thedesolatedelusion.hydro_crystal.desc": "Craft a Hydro Crystal from primarine shards and crystals",
+  "advancement.thedesolatedelusion.cryo_crystal": "Cryo Crystal",
+  "advancement.thedesolatedelusion.cryo_crystal.desc": "Craft a Cryo Crystal from ice and snow"
 }

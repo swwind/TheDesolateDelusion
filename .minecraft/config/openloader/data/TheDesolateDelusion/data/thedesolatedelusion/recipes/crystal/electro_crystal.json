@@ -7,7 +7,7 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "minecraft:iron_ingot" }
+        { "item": "minecraft:potato" }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     },
@@ -15,7 +15,7 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "minecraft:copper_ingot" }
+        { "item": "minecraft:wheat" }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     },
@@ -23,7 +23,7 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "minecraft:gold_ingot" }
+        { "item": "minecraft:carrot" }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     },
@@ -31,13 +31,13 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "create:zinc_ingot" }
+        { "item": "minecraft:beetroot" }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     }
   ],
   "results": [
-    { "item": "kubejs:geo_crystal", "chance": 1 },
+    { "item": "kubejs:electro_crystal", "chance": 1 },
     { "item": "quark:dirty_shard", "chance": 255 }
   ],
   "loops": 1

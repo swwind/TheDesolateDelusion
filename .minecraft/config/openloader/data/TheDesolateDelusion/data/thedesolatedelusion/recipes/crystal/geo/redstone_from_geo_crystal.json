@@ -1,9 +1,9 @@
 {
   "type": "create:item_application",
   "ingredients": [
-    { "item": "minecraft:deepslate" },
+    { "item": "minecraft:red_concrete" },
     { "item": "kubejs:geo_crystal" }
   ],
-  "results": [{ "item": "minecraft:deepslate_redstone_ore" }],
+  "results": [{ "item": "minecraft:redstone_block" }],
   "keepHeldItem": true
 }

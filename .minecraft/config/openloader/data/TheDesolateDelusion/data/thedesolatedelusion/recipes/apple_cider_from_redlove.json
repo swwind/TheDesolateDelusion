@@ -1,0 +1,10 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "fruittrees:redlove" },
+    { "item": "fruittrees:redlove" },
+    { "item": "minecraft:sugar" }
+  ],
+  "results": [{ "fluid": "kubejs:apple_cider", "amount": 250 }],
+  "heatRequirement": "heated"
+}

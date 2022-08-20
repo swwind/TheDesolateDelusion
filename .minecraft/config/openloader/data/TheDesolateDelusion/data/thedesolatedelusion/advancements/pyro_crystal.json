@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:burning_blossom",
+  "display": {
+    "icon": {
+      "item": "kubejs:pyro_crystal"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.pyro_crystal"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.pyro_crystal.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["kubejs:pyro_crystal"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}

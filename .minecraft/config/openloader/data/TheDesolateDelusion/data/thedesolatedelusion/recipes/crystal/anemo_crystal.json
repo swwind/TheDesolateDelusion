@@ -1,13 +1,44 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "minecraft:glass_bottle" },
+  "transitionalItem": { "item": "minecraft:glass_bottle" },
+  "sequence": [
     {
-      "type": "drawerstooltip:standard",
-      "content": { "item": "farmersdelight:apple_cider" },
-      "amount": 256
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "farmersdelight:apple_cider" }
+      ],
+      "results": [{ "item": "minecraft:glass_bottle" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "farmersdelight:apple_cider" }
+      ],
+      "results": [{ "item": "minecraft:glass_bottle" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "farmersdelight:apple_cider" }
+      ],
+      "results": [{ "item": "minecraft:glass_bottle" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "farmersdelight:apple_cider" }
+      ],
+      "results": [{ "item": "minecraft:glass_bottle" }]
     }
   ],
-  "result": {
-    "item": "kubejs:anemo_crystal"
-  }
+  "results": [
+    { "item": "kubejs:anemo_crystal", "chance": 1 },
+    { "item": "quark:dirty_shard", "chance": 255 }
+  ],
+  "loops": 1
 }

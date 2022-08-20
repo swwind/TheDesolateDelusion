@@ -1,13 +1,44 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "minecraft:glass_bottle" },
+  "transitionalItem": { "item": "minecraft:glass_bottle" },
+  "sequence": [
     {
-      "type": "drawerstooltip:standard",
-      "content": { "item": "minecraft:moss_block" },
-      "amount": 256
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "minecraft:wheat" }
+      ],
+      "results": [{ "item": "minecraft:glass_bottle" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "minecraft:potato" }
+      ],
+      "results": [{ "item": "minecraft:glass_bottle" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "minecraft:carrot" }
+      ],
+      "results": [{ "item": "minecraft:glass_bottle" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "minecraft:beetroot" }
+      ],
+      "results": [{ "item": "minecraft:glass_bottle" }]
     }
   ],
-  "result": {
-    "item": "kubejs:dendro_crystal"
-  }
+  "results": [
+    { "item": "kubejs:dendro_crystal", "chance": 1 },
+    { "item": "quark:dirty_shard", "chance": 255 }
+  ],
+  "loops": 1
 }

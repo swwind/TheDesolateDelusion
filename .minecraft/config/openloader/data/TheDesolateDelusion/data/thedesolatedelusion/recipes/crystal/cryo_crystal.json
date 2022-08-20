@@ -7,7 +7,18 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "minecraft:iron_ingot" }
+        { "item": "minecraft:powder_snow_bucket" }
+      ],
+      "results": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "minecraft:bucket" }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "minecraft:ice" }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     },
@@ -15,7 +26,7 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "minecraft:copper_ingot" }
+        { "item": "minecraft:packed_ice" }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     },
@@ -23,21 +34,13 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "minecraft:gold_ingot" }
-      ],
-      "results": [{ "item": "minecraft:glass_bottle" }]
-    },
-    {
-      "type": "create:deploying",
-      "ingredients": [
-        { "item": "minecraft:glass_bottle" },
-        { "item": "create:zinc_ingot" }
+        { "item": "minecraft:blue_ice" }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     }
   ],
   "results": [
-    { "item": "kubejs:geo_crystal", "chance": 1 },
+    { "item": "kubejs:cryo_crystal", "chance": 1 },
     { "item": "quark:dirty_shard", "chance": 255 }
   ],
   "loops": 1

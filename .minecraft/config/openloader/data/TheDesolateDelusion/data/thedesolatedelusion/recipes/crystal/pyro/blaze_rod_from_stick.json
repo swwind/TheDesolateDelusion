@@ -1,0 +1,9 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    { "item": "minecraft:stick" },
+    { "item": "kubejs:pyro_crystal" }
+  ],
+  "results": [{ "item": "minecraft:blaze_rod" }],
+  "keepHeldItem": true
+}

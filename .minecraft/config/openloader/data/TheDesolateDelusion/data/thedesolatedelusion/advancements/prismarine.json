@@ -1,0 +1,27 @@
+{
+  "parent": "thedesolatedelusion:root",
+  "display": {
+    "icon": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.prismarine"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.prismarine.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [{ "items": ["minecraft:prismarine_crystals"] }]
+      }
+    }
+  },
+  "requirements": [["0"]]
+}

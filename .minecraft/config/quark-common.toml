@@ -354,8 +354,8 @@
 		"Apply Cost" = 5
 
 	[tools.bottled_cloud]
-		"Cloud Level Bottom" = 191
-		"Cloud Level Top" = 196
+		"Cloud Level Bottom" = 300
+		"Cloud Level Top" = 304
 
 	[tools.ancient_tomes]
 		#Format is lootTable,weight. i.e. "minecraft:chests/stronghold_library,30"

@@ -1,0 +1,11 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "kubejs:cryo_crystal" },
+    { "fluid": "minecraft:water", "nbt": {}, "amount": 250 }
+  ],
+  "results": [
+    { "item": "kubejs:cryo_crystal" },
+    { "item": "minecraft:snowball" }
+  ]
+}

@@ -20,7 +20,9 @@ onEvent("item.registry", (event) => {
   event.create("intertwined_fate").rarity("rare");
 });
 
-onEvent("block.registry", (event) => {
-  // Register new blocks here
-  // event.create('example_block').material('wood').hardness(1.0).displayName('Example Block')
+onEvent("fluid.registry", (event) => {
+  event.create("apple_cider")
+    .thinTexture(0xe4ac7c)
+    .noBucket()
+    .noBlock();
 });

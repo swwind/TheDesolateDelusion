@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:root",
+  "display": {
+    "icon": {
+      "item": "supplementaries:ash"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.ash"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.ash.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["supplementaries:ash"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}
