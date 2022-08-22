@@ -3,7 +3,8 @@
 /.hmcl.json
 /HMCL-*.jar
 /*.zip
-/modpack
+/build
+/release
 
 /.minecraft/*
 
