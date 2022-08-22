@@ -517,7 +517,7 @@
       "name": "Create Jetpack",
       "client": true,
       "server": true,
-      "fileId": 3941076
+      "fileId": 3943552
     },
     {
       "id": 351264,
@@ -525,6 +525,27 @@
       "client": true,
       "server": true,
       "fileId": 3925887
+    },
+    {
+      "id": 557796,
+      "name": "Effective (Forge)",
+      "client": true,
+      "server": true,
+      "fileId": 3817648
+    },
+    {
+      "id": 637808,
+      "name": "Brewin' And Chewin'",
+      "client": true,
+      "server": true,
+      "fileId": 3854764
+    },
+    {
+      "id": 551453,
+      "name": "Farmer's Respite",
+      "client": true,
+      "server": true,
+      "fileId": 3859156
     }
   ]
 }
