@@ -50,6 +50,6 @@ await Deno.writeTextFile("./mods.json", JSON.stringify(modpack, null, 2));
 for (const outofdate of installed) {
   if (!checked.includes(outofdate)) {
     console.log(`==> Removing ${outofdate}...`);
-    await Deno.remove(outofdate);
+    await Deno.remove(`.minecraft/mods/${outofdate}`);
   }
 }
