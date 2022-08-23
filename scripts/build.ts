@@ -14,6 +14,8 @@ await $`cp -r .minecraft/kubejs build/overrides`;
 await $`cp .minecraft/options.txt build/overrides`;
 await $`cp .minecraft/rhino.local.properties build/overrides`;
 
+await $`rm -rf build/overrides/kubejs/exported`;
+
 cd(`${cwd}/build/overrides/config/openloader/data/TheDesolateDelusion`);
 await $`zip -r TheDesolateDelusion.zip data pack.mcmeta`;
 await $`mv TheDesolateDelusion.zip ..`;
