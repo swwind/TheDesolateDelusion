@@ -1,6 +1,8 @@
 import { $, cd } from "https://deno.land/x/zx_deno@1.2.2/mod.mjs";
 import { Modpack } from "./utils.ts";
 
+const cwd = Deno.cwd();
+
 await $`rm -rf build`;
 await $`mkdir -p build`;
 await $`mkdir -p build/overrides`;
@@ -11,6 +13,16 @@ await $`cp -r .minecraft/defaultconfigs build/overrides`;
 await $`cp -r .minecraft/kubejs build/overrides`;
 await $`cp .minecraft/options.txt build/overrides`;
 await $`cp .minecraft/rhino.local.properties build/overrides`;
+
+cd(`${cwd}/build/overrides/config/openloader/data/TheDesolateDelusion`);
+await $`zip -r TheDesolateDelusion.zip data pack.mcmeta`;
+await $`mv TheDesolateDelusion.zip ..`;
+await $`cd .. && rm -rf TheDesolateDelusion`;
+
+cd(`${cwd}/build/overrides/config/openloader/resources/TheDesolateDelusion`);
+await $`zip -r TheDesolateDelusion.zip assets pack.mcmeta`;
+await $`mv TheDesolateDelusion.zip ..`;
+await $`cd .. && rm -rf TheDesolateDelusion`;
 
 const mods = JSON.parse(await Deno.readTextFile("mods.json")) as Modpack;
 
@@ -33,18 +45,16 @@ const manifest = {
   files: mods.mods
     .filter((mod) => mod.client)
     .map((mod) => ({
-      projectId: mod.id,
-      fileId: mod.fileId,
+      projectID: mod.id,
+      fileID: mod.fileId,
       required: true,
     })),
 };
 
 await Deno.writeTextFile(
-  "build/manifest.json",
+  `${cwd}/build/manifest.json`,
   JSON.stringify(manifest, null, 2)
 );
-
-cd("build");
-
+cd(`${cwd}/build`);
 await $`zip -r modpack.zip overrides manifest.json`;
 await $`mv modpack.zip ../release/The_Desolate_Delusion-0.0.1.zip`;

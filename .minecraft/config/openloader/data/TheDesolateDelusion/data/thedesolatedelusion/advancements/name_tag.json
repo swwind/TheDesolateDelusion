@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:anemo_crystal",
+  "display": {
+    "icon": {
+      "item": "minecraft:name_tag"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.name_tag"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.name_tag.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["minecraft:name_tag"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}

@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:nether_star",
+  "display": {
+    "icon": {
+      "item": "kubejs:electro_crystal"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.electro_crystal"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.electro_crystal.desc"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["kubejs:electro_crystal"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}

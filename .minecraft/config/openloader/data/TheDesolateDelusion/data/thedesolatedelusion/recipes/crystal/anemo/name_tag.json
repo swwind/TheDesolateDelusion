@@ -1,0 +1,9 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    { "tag": "supplementaries:sign_posts" },
+    { "item": "kubejs:anemo_crystal" }
+  ],
+  "results": [{ "item": "minecraft:name_tag" }],
+  "keepHeldItem": true
+}

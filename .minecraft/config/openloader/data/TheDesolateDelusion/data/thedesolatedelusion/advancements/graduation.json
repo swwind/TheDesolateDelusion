@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:intertwined_fate",
+  "display": {
+    "icon": {
+      "item": "kubejs:bilibili_television"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.graduation"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.graduation.desc"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["kubejs:bilibili_television"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}

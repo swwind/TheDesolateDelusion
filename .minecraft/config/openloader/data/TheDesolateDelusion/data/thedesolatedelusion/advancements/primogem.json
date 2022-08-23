@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:electro_crystal",
+  "display": {
+    "icon": {
+      "item": "kubejs:primogem"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.primogem"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.primogem.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["kubejs:primogem"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}

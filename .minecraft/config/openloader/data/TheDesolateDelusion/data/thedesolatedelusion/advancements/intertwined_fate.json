@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:primogem",
+  "display": {
+    "icon": {
+      "item": "kubejs:intertwined_fate"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.intertwined_fate"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.intertwined_fate.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["kubejs:intertwined_fate"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}

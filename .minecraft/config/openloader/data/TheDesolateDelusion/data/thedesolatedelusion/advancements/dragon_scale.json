@@ -1,0 +1,25 @@
+{
+  "parent": "thedesolatedelusion:electro_crystal",
+  "display": {
+    "icon": {
+      "item": "quark:dragon_scale"
+    },
+    "title": {
+      "translate": "advancement.thedesolatedelusion.dragon_scale"
+    },
+    "description": {
+      "translate": "advancement.thedesolatedelusion.dragon_scale.desc"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": { "items": [{ "items": ["quark:dragon_scale"] }] }
+    }
+  },
+  "requirements": [["0"]]
+}

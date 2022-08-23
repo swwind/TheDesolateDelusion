@@ -1,15 +1,9 @@
 {
   "type": "farmersdelight:cooking",
   "ingredients": [
-    {
-      "item": "create:honeyed_apple"
-    },
-    {
-      "item": "create:honeyed_apple"
-    },
-    {
-      "item": "minecraft:sugar"
-    }
+    [{ "item": "create:honeyed_apple" }, { "item": "fruittrees:redlove" }],
+    [{ "item": "create:honeyed_apple" }, { "item": "fruittrees:redlove" }],
+    { "item": "minecraft:sugar" }
   ],
   "result": {
     "item": "farmersdelight:apple_cider"

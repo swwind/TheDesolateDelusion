@@ -1,5 +1,5 @@
 {
-  "parent": "thedesolatedelusion:root",
+  "parent": "thedesolatedelusion:all_crops",
   "display": {
     "icon": {
       "item": "kubejs:dendro_crystal"
@@ -10,7 +10,7 @@
     "description": {
       "translate": "advancement.thedesolatedelusion.dendro_crystal.desc"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

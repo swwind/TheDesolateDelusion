@@ -1,3 +1,44 @@
 {
-  "type": "TODO"
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "minecraft:glass_bottle" },
+  "transitionalItem": { "item": "minecraft:glass_bottle" },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "minecraft:nether_star" }
+      ],
+      "results": [{ "item": "minecraft:glass_bottle" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "minecraft:nether_star" }
+      ],
+      "results": [{ "item": "minecraft:glass_bottle" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "minecraft:nether_star" }
+      ],
+      "results": [{ "item": "minecraft:glass_bottle" }]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:glass_bottle" },
+        { "item": "minecraft:nether_star" }
+      ],
+      "results": [{ "item": "minecraft:glass_bottle" }]
+    }
+  ],
+  "results": [
+    { "item": "kubejs:electro_crystal", "chance": 1 },
+    { "item": "quark:dirty_shard", "chance": 255 }
+  ],
+  "loops": 1
 }
