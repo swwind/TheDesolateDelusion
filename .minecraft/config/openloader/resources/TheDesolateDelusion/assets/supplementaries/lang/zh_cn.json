@@ -1,7 +1,6 @@
 {
   "_": "Extended from https://github.com/CFPAOrg/Minecraft-Mod-Language-Package",
-  "__": "这个中文翻译项目到底是干什么的啊，要求一大堆还几个月都没有人审核😅",
-  "___": "原作者明明不是不接受翻译文件为什么还有憨憨提交到那里去，搞的一直没有中文用",
+  "__": "这个中文翻译项目到底是干什么的啊，明明都翻译完了都没有人审核合并😅",
 
   "itemGroup.supplementaries": "锦致装饰",
   "block.supplementaries.faucet": "水龙头",

@@ -13,15 +13,16 @@
   "item.kubejs.pyro_crystal": "火元素结晶",
 
   "item.kubejs.anemo_crystal.tip": "§3来自温迪的眷顾\n§3§o“诶嘿”",
-  "item.kubejs.cryo_crystal.tip": "冰元素结晶",
-  "item.kubejs.dendro_crystal.tip": "§a来自纳西妲的眷顾\n§a可以让种子焕发生机",
-  "item.kubejs.electro_crystal.tip": "§d来自雷电影的眷顾\n§d但是她不会做饭",
-  "item.kubejs.geo_crystal.tip": "§6来自钟离的眷顾\n§6可以点石成金",
-  "item.kubejs.hydro_crystal.tip": "水元素结晶",
-  "item.kubejs.pyro_crystal.tip": "火元素结晶",
+  "item.kubejs.cryo_crystal.tip": "§b来自冰神的眷顾\n§b§o至冬国不相信眼泪",
+  "item.kubejs.dendro_crystal.tip": "§a来自纳西妲的眷顾\n§a§o让万物焕发生机",
+  "item.kubejs.electro_crystal.tip": "§d来自雷电影的眷顾\n§d§o但是她不会做饭",
+  "item.kubejs.geo_crystal.tip": "§6来自钟离的眷顾\n§6§o天动万象",
+  "item.kubejs.hydro_crystal.tip": "§9来自水神的眷顾",
+  "item.kubejs.pyro_crystal.tip": "§c来自火神的眷顾",
 
   "item.kubejs.primogem": "原石",
   "item.kubejs.intertwined_fate": "纠缠之缘",
 
-  "fluid.kubejs.apple_cider": "苹果酒"
+  "fluid.kubejs.apple_cider": "苹果酒",
+  "fluid.kubejs.dragon_scale": "龙鳞"
 }

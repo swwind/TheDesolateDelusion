@@ -44,5 +44,11 @@
   "advancement.thedesolatedelusion.cryo_crystal": "Cryo Crystal",
   "advancement.thedesolatedelusion.cryo_crystal.desc": "Craft a Cryo Crystal from ice and snow",
   "advancement.thedesolatedelusion.electro_crystal": "Electro Crystal",
-  "advancement.thedesolatedelusion.electro_crystal.desc": "Craft a Electro Crystal from Nether Star"
+  "advancement.thedesolatedelusion.electro_crystal.desc": "Craft a Electro Crystal from Nether Star",
+
+  "tip.thedesolatedelusion.1": "Burning planks may be more efficient than burning logs",
+  "tip.thedesolatedelusion.2": "The wither cannot escape a cage made of crying obsidian",
+  "tip.thedesolatedelusion.3": "Snowmen drop the player's head when killed by a witch - this feature comes from the Quark mod",
+  "tip.thedesolatedelusion.4": "Don't want to run thousands of miles away to collect ices? An altitude of 500m may be as cold as snow biomes",
+  "tip.thedesolatedelusion.5": "Snowmen now need powder snow and pumpkin heads to be summoned (fake)"
 }

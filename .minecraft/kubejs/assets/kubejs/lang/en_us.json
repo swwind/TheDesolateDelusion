@@ -12,16 +12,17 @@
   "item.kubejs.hydro_crystal": "Hydro Crystal",
   "item.kubejs.pyro_crystal": "Pyro Crystal",
 
-  "item.kubejs.anemo_crystal.tip": "§3From Venti's favor\n§3doesn't offer any help",
-  "item.kubejs.cryo_crystal.tip": "Cryo Crystal",
-  "item.kubejs.dendro_crystal.tip": "§aFrom Nahida's favor\n§abringing seeds to life",
-  "item.kubejs.electro_crystal.tip": "§dFrom Ei's favor\n§dbut she doesn't know how to cook",
-  "item.kubejs.geo_crystal.tip": "§6From Morax's favor\n§6turning stones into ores",
-  "item.kubejs.hydro_crystal.tip": "Hydro Crystal",
-  "item.kubejs.pyro_crystal.tip": "Pyro Crystal",
+  "item.kubejs.anemo_crystal.tip": "§3From Venti's favor",
+  "item.kubejs.cryo_crystal.tip": "",
+  "item.kubejs.dendro_crystal.tip": "§aFrom Nahida's favor",
+  "item.kubejs.electro_crystal.tip": "§dFrom Ei's favor",
+  "item.kubejs.geo_crystal.tip": "§6From Morax's favor",
+  "item.kubejs.hydro_crystal.tip": "",
+  "item.kubejs.pyro_crystal.tip": "",
 
   "item.kubejs.primogem": "Primogem",
   "item.kubejs.intertwined_fate": "Intertwined Fate",
 
-  "fluid.kubejs.apple_cider": "Apple cider"
+  "fluid.kubejs.apple_cider": "Apple cider",
+  "fluid.kubejs.dragon_scale": "Dragon scale"
 }

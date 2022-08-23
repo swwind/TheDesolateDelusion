@@ -1,0 +1,8 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    { "item": "kubejs:primogem" },
+    { "fluid": "kubejs:dragon_scale", "amount": 1000 }
+  ],
+  "results": [{ "item": "kubejs:intertwined_fate" }]
+}

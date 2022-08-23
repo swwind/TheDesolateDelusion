@@ -44,5 +44,11 @@
   "advancement.thedesolatedelusion.cryo_crystal": "冰元素结晶",
   "advancement.thedesolatedelusion.cryo_crystal.desc": "使用冰和雪凝结一个冰元素结晶",
   "advancement.thedesolatedelusion.electro_crystal": "雷元素结晶",
-  "advancement.thedesolatedelusion.electro_crystal.desc": "使用下界之星催生一个雷元素结晶"
+  "advancement.thedesolatedelusion.electro_crystal.desc": "使用下界之星催生一个雷元素结晶",
+
+  "tip.thedesolatedelusion.1": "燃烧木板也许会比燃烧原木更加有效率",
+  "tip.thedesolatedelusion.2": "凋灵无法逃脱用哭泣的黑曜石制作的笼子",
+  "tip.thedesolatedelusion.3": "雪傀儡被女巫杀死之后会掉落玩家的头颅——这特性来自于 Quark 模组",
+  "tip.thedesolatedelusion.4": "不想跑到几千米远的雪原收集冰块？500m 的高空也许跟雪原一样寒冷",
+  "tip.thedesolatedelusion.5": "雪傀儡现在需要通过细雪和南瓜头来召唤（还没实现）"
 }
