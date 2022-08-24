@@ -1,0 +1,9 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    { "item": "quark:bottled_cloud" },
+    { "item": "kubejs:electro_crystal" }
+  ],
+  "results": [{ "item": "minecraft:dragon_breath" }],
+  "keepHeldItem": true
+}

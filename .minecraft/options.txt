@@ -139,7 +139,6 @@ key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
 key_key.waila.show_recipes:key.keyboard.keypad.3
 key_key.waila.show_uses:key.keyboard.keypad.4
-key_placebo.toggleTrails:key.keyboard.keypad.9
 key_key.jetpack.toggle_active.description:key.keyboard.g
 key_key.jetpack.toggle_hover.description:key.keyboard.h
 key_key.waila.config:key.keyboard.keypad.0
@@ -148,6 +147,7 @@ key_key.waila.toggle_liquid:key.keyboard.keypad.2
 key_key.waila.narrate:key.keyboard.keypad.6
 key_key.waila.show_details:key.keyboard.left.shift
 key_key.itemstitchingfix.open_gui:key.keyboard.i
+key_placebo.toggleTrails:key.keyboard.keypad.9
 key_placebo.toggleWings:key.keyboard.keypad.8
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
@@ -155,7 +155,9 @@ key_iris.keybind.shaderPackSelection:key.keyboard.o
 key_key.diet.open.desc:key.keyboard.unknown
 key_key.curios.open.desc:key.keyboard.unknown
 key_quark.keybind.lock_rotation:key.keyboard.k
-key_quark.keybind.camera_mode:key.keyboard.f12
+key_quark.keybind.autorun:key.keyboard.unknown
+key_quark.keybind.sort_player:key.keyboard.unknown
+key_quark.keybind.sort_container:key.keyboard.unknown
 key_quark.emote.no:key.keyboard.unknown
 key_quark.emote.yes:key.keyboard.unknown
 key_quark.emote.wave:key.keyboard.unknown
@@ -174,13 +176,11 @@ key_quark.keybind.patreon_emote.dab:key.keyboard.unknown
 key_quark.keybind.patreon_emote.jet:key.keyboard.unknown
 key_quark.keybind.patreon_emote.exorcist:key.keyboard.unknown
 key_quark.keybind.patreon_emote.zombie:key.keyboard.unknown
+key_quark.keybind.back:key.mouse.4
 key_quark.keybind.transfer_insert:key.keyboard.unknown
 key_quark.keybind.transfer_extract:key.keyboard.unknown
 key_quark.keybind.shift_lock:key.keyboard.unknown
-key_quark.keybind.back:key.mouse.4
-key_quark.keybind.autorun:key.keyboard.unknown
-key_quark.keybind.sort_player:key.keyboard.unknown
-key_quark.keybind.sort_container:key.keyboard.unknown
+key_quark.keybind.camera_mode:key.keyboard.f12
 key_quark.keybind.change_hotbar:key.keyboard.z
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt

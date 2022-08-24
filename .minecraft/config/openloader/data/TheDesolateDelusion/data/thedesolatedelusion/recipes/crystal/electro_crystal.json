@@ -4,34 +4,34 @@
   "transitionalItem": { "item": "minecraft:glass_bottle" },
   "sequence": [
     {
-      "type": "create:deploying",
+      "type": "create:filling",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "minecraft:nether_star" }
+        { "fluid": "create_confectionery:black_chocolate", "amount": 250 }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     },
     {
-      "type": "create:deploying",
+      "type": "create:filling",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "minecraft:nether_star" }
+        { "fluid": "create_confectionery:white_chocolate", "amount": 250 }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     },
     {
-      "type": "create:deploying",
+      "type": "create:filling",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "minecraft:nether_star" }
+        { "fluid": "create_confectionery:ruby_chocolate", "amount": 250 }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     },
     {
-      "type": "create:deploying",
+      "type": "create:filling",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "minecraft:nether_star" }
+        { "fluid": "create_confectionery:hot_chocolate", "amount": 250 }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     }
