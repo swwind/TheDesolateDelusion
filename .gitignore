@@ -1,10 +1,12 @@
 /.env
 /.vscode
 /.hmcl.json
-/HMCL-*.jar
+/*.jar
 /*.zip
+/*.log
 /build
 /release
+/server
 
 /.minecraft/*
 

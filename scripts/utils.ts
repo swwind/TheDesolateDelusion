@@ -55,16 +55,16 @@ export async function getModFiles(minecraft: string, modId: number) {
   );
 }
 
-export async function getInstalledMods() {
-  await Deno.mkdir(".minecraft/mods", { recursive: true });
-  return Array.from(Deno.readDirSync(".minecraft/mods"))
+export async function getInstalledMods(dirname: string) {
+  await Deno.mkdir(dirname, { recursive: true });
+  return Array.from(Deno.readDirSync(dirname))
     .filter((file) => file.isFile)
     .map((file) => file.name);
 }
 
 export async function downloadModFile(downloadUrl: string, filename: string) {
   console.log(`==> Downloading ${filename}...`);
-  await $`wget -O ${`.minecraft/mods/${filename}`} ${downloadUrl}`;
+  await $`wget -O ${filename} ${downloadUrl}`;
 }
 
 export async function checkHash(filename: string, hashes: FileInfoHash[]) {
@@ -73,6 +73,6 @@ export async function checkHash(filename: string, hashes: FileInfoHash[]) {
     const algo =
       hash.algo === 1 ? "sha1sum" : hash.algo === 2 ? "md5sum" : null;
     if (!algo) throw new Error(`Unknown checksum for algorithm ${hash.algo}`);
-    await $`${algo} -c - <<< ${`${hash.value} .minecraft/mods/${filename}`}`;
+    await $`${algo} -c - <<< ${`${hash.value} ${filename}`}`;
   }
 }

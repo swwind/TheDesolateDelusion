@@ -3,6 +3,7 @@
     "install": "deno run -A --unstable scripts/install.ts",
     "add": "deno run -A --unstable scripts/add.ts",
     "upgrade": "deno run -A --unstable scripts/upgrade.ts",
-    "build": "deno run -A --unstable scripts/build.ts"
+    "build": "deno run -A --unstable scripts/build.ts",
+    "server": "deno run -A --unstable scripts/server.ts"
   }
 }

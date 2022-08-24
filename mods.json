@@ -446,14 +446,14 @@
       "id": 574856,
       "name": "Rubidium",
       "client": true,
-      "server": true,
+      "server": false,
       "fileId": 3929515
     },
     {
       "id": 581495,
       "name": "Oculus",
       "client": true,
-      "server": true,
+      "server": false,
       "fileId": 3929520
     },
     {
@@ -525,13 +525,6 @@
       "client": true,
       "server": true,
       "fileId": 3925887
-    },
-    {
-      "id": 557796,
-      "name": "Effective (Forge)",
-      "client": true,
-      "server": true,
-      "fileId": 3817648
     },
     {
       "id": 637808,

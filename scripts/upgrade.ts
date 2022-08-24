@@ -1,15 +1,7 @@
-import {
-  checkHash,
-  downloadModFile,
-  getInstalledMods,
-  getModFiles,
-  Modpack,
-} from "./utils.ts";
+import { getModFiles, Modpack } from "./utils.ts";
 
 const modpack = JSON.parse(await Deno.readTextFile("./mods.json")) as Modpack;
-let updated = 0;
-const installed = await getInstalledMods();
-const checked = [];
+const summary: string[] = [];
 
 for (const mod of modpack.mods.filter((mod) => mod.client)) {
   console.log(`==> Checking updates for ${mod.name}...`);
@@ -21,35 +13,19 @@ for (const mod of modpack.mods.filter((mod) => mod.client)) {
     )
     .at(-1);
 
-  console.log(
-    files.data.map((file) => `${file.fileName}: ${file.fileDate}`).join("\n")
-  );
+  files.data.map((file) => console.log(`${file.fileName}: ${file.fileDate}`));
 
   if (!latest) {
     throw new Error(`No release found for ${mod.name}`);
   }
 
   if (mod.fileId === latest.id) {
-    checked.push(latest.fileName);
     continue;
   }
 
-  console.log(`==> Updating ${mod.name}...`);
-  if (!latest.downloadUrl) throw new Error("Failed to get download URL");
-  await downloadModFile(latest.downloadUrl, latest.fileName);
-  await checkHash(latest.fileName, latest.hashes);
-
   mod.fileId = latest.id;
-  updated = updated + 1;
-  checked.push(latest.fileName);
+  summary.push(`${mod.name}: ${latest.fileName}`);
 }
 
-console.log(`==> Updated ${updated} mods`);
 await Deno.writeTextFile("./mods.json", JSON.stringify(modpack, null, 2));
-
-for (const outofdate of installed) {
-  if (!checked.includes(outofdate)) {
-    console.log(`==> Removing ${outofdate}...`);
-    await Deno.remove(`.minecraft/mods/${outofdate}`);
-  }
-}
+summary.map((info) => console.log(info));

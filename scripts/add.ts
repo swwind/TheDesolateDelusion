@@ -44,8 +44,9 @@ if (!latest || !latest.downloadUrl) {
   throw new Error(`No release found for ${name}`);
 }
 
-await downloadModFile(latest.downloadUrl, latest.fileName);
-await checkHash(latest.fileName, latest.hashes);
+const filename = `.minecraft/mods/${latest.fileName}`;
+await downloadModFile(latest.downloadUrl, filename);
+await checkHash(filename, latest.hashes);
 
 modpack.mods.push({ id, name, client, server, fileId: latest.id });
 await Deno.writeTextFile("./mods.json", JSON.stringify(modpack, null, 2));
