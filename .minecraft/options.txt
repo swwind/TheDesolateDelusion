@@ -39,7 +39,7 @@ renderClouds:true
 resourcePacks:["vanilla","mod_resources","Supplementaries Generated Pack","quark:emote_resources","resources/TheDesolateDelusion","eatinganimations_compat"]
 incompatibleResourcePacks:["quark:emote_resources"]
 lastServer:localhost
-lang:zh_cn
+lang:en_us
 soundDevice:
 chatVisibility:0
 chatOpacity:1.0
