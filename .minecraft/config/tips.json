@@ -3,5 +3,6 @@
   "ignoredNamespaces": [
     "tipsmod"
   ],
-  "ignoredTips": []
+  "ignoredTips": [],
+  "useAmericanEnglishAsDefault": false
 }

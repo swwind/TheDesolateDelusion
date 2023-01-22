@@ -5,6 +5,7 @@ allowWrongWorldTeleportation:false
 differentiateByServerAddress:true
 debugEntityIcons:false
 debugEntityVariantIds:false
+radarHideInvisibleEntities:true
 #INGAME SETTINGS (DO NOT EDIT!)
 updateNotification:true
 minimap:true
@@ -61,7 +62,7 @@ biomeColorsVanillaMode:false
 lookingAtAngle:10
 lookingAtAngleVertical:180
 centeredEnlarged:false
-zoomedOutEnlarged:false
+zoomOnEnlarged:0
 minimapTextAlign:0
 showAngles:false
 waypointsMutualEdit:true
@@ -101,10 +102,15 @@ chunkGridLineWidth:1
 temporaryWaypointsGlobal:true
 keepUnlockedWhenEnlarged:false
 enlargedMinimapAToggle:false
+displayStainedGlass:true
+waypointOnMapScale:0
+switchToAutoOnDeath:true
+displayWeatherInfo:false
 displayPacPlayers:true
 displayClaims:true
 displayCurrentClaim:true
-claimsOpacity:80
+claimsFillOpacity:46
+claimsBorderOpacity:80
 interface:dummy:0:36:true:false:false:false
 interface:dummy:0:10000:true:false:false:false
 interface:dummy:0:0:false:false:true:false

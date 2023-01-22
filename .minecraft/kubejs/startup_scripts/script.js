@@ -2,7 +2,7 @@
 
 console.info("Thanks for playing The Desolute Delusion!");
 
-onEvent("item.registry", (event) => {
+StartupEvents.registry("item", (event) => {
   // Register new items here
   // event.create('example_item').displayName('Example Item')
 
@@ -20,7 +20,7 @@ onEvent("item.registry", (event) => {
   event.create("intertwined_fate").rarity("rare");
 });
 
-onEvent("fluid.registry", (event) => {
+StartupEvents.registry("fluid", (event) => {
   event.create("apple_cider")
     .thinTexture(0xe4ac7c)
     .noBucket()

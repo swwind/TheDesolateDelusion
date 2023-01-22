@@ -1,82 +1,75 @@
 {
-  "minecraft": "1.18.2",
+  "minecraft": "1.19.2",
   "mods": [
     {
       "id": 238222,
       "name": "Just Enough Items (JEI)",
       "client": true,
       "server": true,
-      "fileId": 3904349
+      "fileId": 4354615
     },
     {
       "id": 231275,
       "name": "Ding",
       "client": true,
       "server": false,
-      "fileId": 3548400
+      "fileId": 3974456
     },
     {
       "id": 303657,
       "name": "Kiwi 🥝 (Forge)",
       "client": true,
       "server": true,
-      "fileId": 3827373
+      "fileId": 4036329
     },
     {
       "id": 355467,
       "name": "Fruit Trees 🍊",
       "client": true,
       "server": true,
-      "fileId": 3756371
+      "fileId": 4215985
     },
     {
       "id": 379887,
       "name": "Passable Foliage 🌳 (Forge)",
       "client": true,
       "server": true,
-      "fileId": 3773491
-    },
-    {
-      "id": 296028,
-      "name": "Lighting Wand 🌟 (Forge)",
-      "client": true,
-      "server": true,
-      "fileId": 3695355
+      "fileId": 3908305
     },
     {
       "id": 233019,
       "name": "AI Improvements",
       "client": false,
       "server": true,
-      "fileId": 3798941
+      "fileId": 4019127
     },
     {
       "id": 288885,
       "name": "FastWorkbench",
       "client": true,
       "server": true,
-      "fileId": 3929012
+      "fileId": 4029996
     },
     {
       "id": 250702,
       "name": "Just Enough Characters",
       "client": true,
       "server": true,
-      "fileId": 3929227
+      "fileId": 4282710
     },
     {
       "id": 250363,
       "name": "AutoRegLib",
       "client": true,
       "server": true,
-      "fileId": 3642382
+      "fileId": 4100299
     },
     {
       "id": 243121,
       "name": "Quark",
       "client": true,
       "server": true,
-      "fileId": 3840125
+      "fileId": 4356456
     },
     {
       "id": 301051,
@@ -90,455 +83,350 @@
       "name": "AppleSkin",
       "client": true,
       "server": true,
-      "fileId": 3927564
+      "fileId": 3872808
     },
     {
       "id": 271740,
       "name": "Toast Control",
       "client": true,
       "server": true,
-      "fileId": 3929072
+      "fileId": 4028343
     },
     {
       "id": 223852,
       "name": "Storage Drawers",
       "client": true,
       "server": true,
-      "fileId": 3807626
+      "fileId": 3884263
     },
     {
       "id": 354339,
       "name": "Open Loader",
       "client": true,
       "server": true,
-      "fileId": 3697234
+      "fileId": 3943067
     },
     {
       "id": 241160,
       "name": "NetherPortalFix",
       "client": true,
       "server": true,
-      "fileId": 3549513
+      "fileId": 3832619
     },
     {
       "id": 220318,
       "name": "Biomes O' Plenty",
       "client": true,
       "server": true,
-      "fileId": 3827434
+      "fileId": 4128419
     },
     {
       "id": 563928,
       "name": "TerraBlender (Forge)",
       "client": true,
       "server": true,
-      "fileId": 3816497
+      "fileId": 4205732
     },
     {
       "id": 381605,
       "name": "Drawers Tooltip",
       "client": true,
       "server": true,
-      "fileId": 3695464
+      "fileId": 3881193
     },
     {
       "id": 328085,
       "name": "Create",
       "client": true,
       "server": true,
-      "fileId": 3934676
-    },
-    {
-      "id": 486392,
-      "name": "Flywheel",
-      "client": true,
-      "server": false,
-      "fileId": 3934664
+      "fileId": 4341479
     },
     {
       "id": 324717,
       "name": "Jade 🔍",
       "client": true,
       "server": true,
-      "fileId": 3865918
+      "fileId": 4318618
     },
     {
       "id": 276951,
-      "name": "Comforts (Forge)",
+      "name": "Comforts (Fabric/Forge/Quilt)",
       "client": true,
       "server": true,
-      "fileId": 3682307
+      "fileId": 4105213
     },
     {
       "id": 398521,
       "name": "Farmer's Delight",
       "client": true,
       "server": true,
-      "fileId": 3834150
+      "fileId": 3999157
     },
     {
       "id": 412082,
       "name": "Supplementaries",
       "client": true,
       "server": true,
-      "fileId": 3947959
+      "fileId": 4356998
     },
     {
       "id": 308989,
       "name": "Caelus API (Forge)",
       "client": true,
       "server": true,
-      "fileId": 3650485
+      "fileId": 3929284
     },
     {
       "id": 309927,
       "name": "Curios API (Forge)",
       "client": true,
       "server": true,
-      "fileId": 3841948
+      "fileId": 3924518
     },
     {
       "id": 317716,
       "name": "Elytra Slot (Forge)",
       "client": true,
       "server": true,
-      "fileId": 3601975
+      "fileId": 3929276
     },
     {
-      "id": 363820,
-      "name": "TerraForged",
+      "id": 513688,
+      "name": "Terralith",
       "client": true,
       "server": true,
-      "fileId": 3811021
+      "fileId": 4167132
     },
     {
       "id": 263420,
       "name": "Xaero's Minimap",
       "client": true,
       "server": false,
-      "fileId": 3937634
+      "fileId": 4338623
     },
     {
       "id": 317780,
       "name": "Xaero's World Map",
       "client": true,
       "server": false,
-      "fileId": 3948203
+      "fileId": 4338635
     },
     {
       "id": 306549,
       "name": "Tips",
       "client": true,
       "server": false,
-      "fileId": 3941699
+      "fileId": 4277194
     },
     {
       "id": 361579,
       "name": "spark",
       "client": true,
       "server": true,
-      "fileId": 3824951
-    },
-    {
-      "id": 443570,
-      "name": "Diet (Forge)",
-      "client": true,
-      "server": true,
-      "fileId": 3758891
+      "fileId": 4159881
     },
     {
       "id": 308663,
       "name": "Snow! Real Magic! ⛄ (Forge)",
       "client": true,
       "server": true,
-      "fileId": 3865993
+      "fileId": 4344498
     },
     {
       "id": 60089,
       "name": "Mouse Tweaks",
       "client": true,
       "server": false,
-      "fileId": 3578801
+      "fileId": 3871353
     },
     {
       "id": 531761,
       "name": "Balm (Forge Edition)",
       "client": true,
       "server": true,
-      "fileId": 3914491
+      "fileId": 3914527
     },
     {
       "id": 283644,
       "name": "Placebo",
       "client": true,
       "server": true,
-      "fileId": 3945834
+      "fileId": 4344915
     },
     {
       "id": 228525,
       "name": "Bookshelf",
       "client": true,
       "server": true,
-      "fileId": 3916521
+      "fileId": 4354814
     },
     {
       "id": 499980,
       "name": "Moonlight Lib",
       "client": true,
       "server": true,
-      "fileId": 3842421
+      "fileId": 4353898
     },
     {
       "id": 457570,
       "name": "Configured",
       "client": true,
       "server": false,
-      "fileId": 3946495
+      "fileId": 4011355
     },
     {
       "id": 238086,
       "name": "KubeJS",
       "client": true,
       "server": true,
-      "fileId": 3946220
+      "fileId": 4332309
     },
     {
       "id": 419699,
       "name": "Architectury API (Fabric/Forge)",
       "client": true,
       "server": true,
-      "fileId": 3929416
+      "fileId": 4147353
     },
     {
       "id": 416294,
       "name": "Rhino",
       "client": true,
       "server": true,
-      "fileId": 3941209
+      "fileId": 4085695
     },
     {
       "id": 558850,
       "name": "Compat O' Plenty",
       "client": true,
       "server": true,
-      "fileId": 3929281
+      "fileId": 4111837
     },
     {
       "id": 382216,
       "name": "Blueprint",
       "client": true,
       "server": true,
-      "fileId": 3923941
+      "fileId": 4019850
     },
     {
       "id": 337396,
       "name": "Boatload",
       "client": true,
       "server": true,
-      "fileId": 3881525
+      "fileId": 3911861
     },
     {
       "id": 250398,
       "name": "Controlling",
       "client": true,
       "server": false,
-      "fileId": 3860454
+      "fileId": 4050343
     },
     {
       "id": 252848,
       "name": "Nature's Compass",
       "client": true,
       "server": true,
-      "fileId": 3858196
+      "fileId": 4118390
     },
     {
       "id": 240630,
       "name": "Just Enough Resources (JER)",
       "client": true,
       "server": true,
-      "fileId": 3831559
-    },
-    {
-      "id": 351725,
-      "name": "Macaw's Bridges",
-      "client": true,
-      "server": true,
-      "fileId": 3793697
-    },
-    {
-      "id": 453925,
-      "name": "Macaw's Fences and Walls",
-      "client": true,
-      "server": true,
-      "fileId": 3913067
-    },
-    {
-      "id": 359540,
-      "name": "Macaw's Furniture",
-      "client": true,
-      "server": true,
-      "fileId": 3879903
-    },
-    {
-      "id": 378646,
-      "name": "Macaw's Doors",
-      "client": true,
-      "server": true,
-      "fileId": 3930974
-    },
-    {
-      "id": 363569,
-      "name": "Macaw's Windows",
-      "client": true,
-      "server": true,
-      "fileId": 3712019
-    },
-    {
-      "id": 352039,
-      "name": "Macaw's Roofs",
-      "client": true,
-      "server": true,
-      "fileId": 3760192
-    },
-    {
-      "id": 400933,
-      "name": "Macaw's Trapdoors",
-      "client": true,
-      "server": true,
-      "fileId": 3914241
-    },
-    {
-      "id": 502372,
-      "name": "Macaw's Lights and Lamps",
-      "client": true,
-      "server": true,
-      "fileId": 3911487
-    },
-    {
-      "id": 438116,
-      "name": "Macaw's Paintings",
-      "client": true,
-      "server": true,
-      "fileId": 3922996
-    },
-    {
-      "id": 533382,
-      "name": "Macaw's Bridges - Biome O' Plenty",
-      "client": true,
-      "server": true,
-      "fileId": 3780693
-    },
-    {
-      "id": 605641,
-      "name": "Macaw's Fences - Biomes O' Plenty",
-      "client": true,
-      "server": true,
-      "fileId": 3914700
-    },
-    {
-      "id": 558344,
-      "name": "Macaw's Roofs - Biomes O' Plenty",
-      "client": true,
-      "server": true,
-      "fileId": 3684183
+      "fileId": 4351907
     },
     {
       "id": 574856,
       "name": "Rubidium",
       "client": true,
       "server": false,
-      "fileId": 3929515
+      "fileId": 3973894
     },
     {
       "id": 581495,
       "name": "Oculus",
       "client": true,
       "server": false,
-      "fileId": 3929520
+      "fileId": 4299147
     },
     {
       "id": 602059,
       "name": "Friends&Foes (Forge)",
       "client": true,
       "server": true,
-      "fileId": 3842725
+      "fileId": 4332443
     },
     {
       "id": 463155,
       "name": "Falling Leaves (Forge)",
       "client": true,
       "server": false,
-      "fileId": 3705945
-    },
-    {
-      "id": 591666,
-      "name": "Overweight Farming",
-      "client": true,
-      "server": true,
-      "fileId": 3919202
+      "fileId": 4124035
     },
     {
       "id": 570544,
       "name": "Eating Animation [Forge]",
       "client": true,
       "server": false,
-      "fileId": 3832394
-    },
-    {
-      "id": 499326,
-      "name": "Item Stitching Fix",
-      "client": true,
-      "server": false,
-      "fileId": 3838604
+      "fileId": 3902540
     },
     {
       "id": 531834,
       "name": "Create Confectionery",
       "client": true,
-      "server": true,
-      "fileId": 3806807
+      "server": false,
+      "fileId": 4023150
     },
     {
       "id": 353942,
       "name": "Snow Under Trees",
       "client": true,
       "server": true,
-      "fileId": 3694488
+      "fileId": 4199870
     },
     {
       "id": 509285,
       "name": "Create Deco",
-      "client": false,
-      "server": false,
-      "fileId": 3922607
+      "client": true,
+      "server": true,
+      "fileId": 4183385
     },
     {
       "id": 655608,
       "name": "Create Jetpack",
       "client": true,
       "server": true,
-      "fileId": 3943552
+      "fileId": 4345087
     },
     {
       "id": 351264,
       "name": "Kotlin for Forge",
       "client": true,
       "server": true,
-      "fileId": 3925887
-    },
-    {
-      "id": 637808,
-      "name": "Brewin' And Chewin'",
-      "client": true,
-      "server": true,
-      "fileId": 3854764
+      "fileId": 4311661
     },
     {
       "id": 551453,
       "name": "Farmer's Respite",
       "client": true,
       "server": true,
-      "fileId": 3859156
+      "fileId": 4081312
+    },
+    {
+      "id": 591666,
+      "name": "Overweight Farming",
+      "client": true,
+      "server": true,
+      "fileId": 4144985
+    },
+    {
+      "id": 256717,
+      "name": "Clumps",
+      "client": false,
+      "server": true,
+      "fileId": 4153347
     }
   ]
 }
