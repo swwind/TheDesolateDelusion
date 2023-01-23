@@ -434,6 +434,104 @@
       "client": true,
       "server": true,
       "fileId": 4139288
+    },
+    {
+      "id": 254284,
+      "name": "AmbientSounds 5",
+      "client": true,
+      "server": false,
+      "fileId": 4126142
+    },
+    {
+      "id": 257814,
+      "name": "CreativeCore",
+      "client": true,
+      "server": false,
+      "fileId": 4121643
+    },
+    {
+      "id": 610492,
+      "name": "Another Furniture",
+      "client": true,
+      "server": true,
+      "fileId": 4034009
+    },
+    {
+      "id": 688768,
+      "name": "Create Enchantment Industry",
+      "client": true,
+      "server": true,
+      "fileId": 4344218
+    },
+    {
+      "id": 659674,
+      "name": "Create Slice & Dice",
+      "client": true,
+      "server": true,
+      "fileId": 4104680
+    },
+    {
+      "id": 669724,
+      "name": "Create: Crystal Clear",
+      "client": true,
+      "server": true,
+      "fileId": 4226036
+    },
+    {
+      "id": 688231,
+      "name": "Create: Steam 'n Rails",
+      "client": true,
+      "server": true,
+      "fileId": 4357495
+    },
+    {
+      "id": 596879,
+      "name": "Radon",
+      "client": true,
+      "server": true,
+      "fileId": 3822783
+    },
+    {
+      "id": 421850,
+      "name": "YUNG's API (Forge)",
+      "client": true,
+      "server": true,
+      "fileId": 4035002
+    },
+    {
+      "id": 631016,
+      "name": "YUNG's Better Desert Temples (Forge)",
+      "client": true,
+      "server": true,
+      "fileId": 4031660
+    },
+    {
+      "id": 510089,
+      "name": "YUNG's Better Dungeons (Forge)",
+      "client": true,
+      "server": true,
+      "fileId": 4073204
+    },
+    {
+      "id": 389665,
+      "name": "YUNG's Better Mineshafts (Forge)",
+      "client": true,
+      "server": true,
+      "fileId": 4031199
+    },
+    {
+      "id": 689238,
+      "name": "YUNG's Better Ocean Monuments (Forge)",
+      "client": true,
+      "server": true,
+      "fileId": 4031366
+    },
+    {
+      "id": 465575,
+      "name": "YUNG's Better Strongholds (Forge)",
+      "client": true,
+      "server": true,
+      "fileId": 4031213
     }
   ]
 }
