@@ -1532,7 +1532,7 @@
 
 [oddities]
 	"Totem Of Holding" = false
-	"Tiny Potato" = false
+	"Tiny Potato" = true
 	Pipes = false
 	"Matrix Enchanting" = false
 	Magnets = false

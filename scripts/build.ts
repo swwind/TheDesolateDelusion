@@ -1,6 +1,9 @@
 import { $, cd } from "https://deno.land/x/zx_deno@1.2.2/mod.mjs";
 import { Modpack } from "./utils.ts";
 
+const FORGE_VERSION = "43.2.3";
+const MODPACK_VERSION = "0.1.0";
+
 const cwd = Deno.cwd();
 
 await $`rm -rf build`;
@@ -33,7 +36,7 @@ const manifest = {
     version: mods.minecraft,
     modLoaders: [
       {
-        id: "forge-40.1.73",
+        id: `forge-${FORGE_VERSION}`,
         primary: true,
       },
     ],
@@ -41,7 +44,7 @@ const manifest = {
   manifestType: "minecraftModpack",
   manifestVersion: 1,
   name: "The Desolate Delusion",
-  version: "0.0.1",
+  version: MODPACK_VERSION,
   author: "swwind",
   overrides: "overrides",
   files: mods.mods
@@ -59,4 +62,4 @@ await Deno.writeTextFile(
 );
 cd(`${cwd}/build`);
 await $`zip -r modpack.zip overrides manifest.json`;
-await $`mv modpack.zip ../release/The_Desolate_Delusion-0.0.1.zip`;
+await $`mv modpack.zip ${`../release/The_Desolate_Delusion-${MODPACK_VERSION}.zip`}`;

@@ -13,7 +13,6 @@
 !/.minecraft/config
 !/.minecraft/defaultconfigs
 !/.minecraft/kubejs
-!/.minecraft/options.txt
 
 /.minecraft/config/oculus.properties
 /.minecraft/config/xaerominimap_entities.json
