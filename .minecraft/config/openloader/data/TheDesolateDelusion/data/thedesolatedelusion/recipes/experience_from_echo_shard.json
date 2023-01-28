@@ -1,0 +1,14 @@
+{
+  "type": "create_enchantment_industry:disenchanting",
+  "ingredients": [
+    {
+      "item": "minecraft:echo_shard"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "create_enchantment_industry:experience",
+      "amount": 10
+    }
+  ]
+}

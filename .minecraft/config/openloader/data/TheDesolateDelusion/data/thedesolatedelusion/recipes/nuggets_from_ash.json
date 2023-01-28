@@ -2,9 +2,9 @@
   "type": "create:splashing",
   "ingredients": [{ "item": "supplementaries:ash" }],
   "results": [
-    { "item": "minecraft:gold_nugget" },
-    { "item": "create:copper_nugget" },
-    { "item": "create:zinc_nugget" },
-    { "item": "minecraft:iron_nugget" }
+    { "item": "minecraft:gold_nugget", "chance": 0.8 },
+    { "item": "create:copper_nugget", "chance": 0.8 },
+    { "item": "create:zinc_nugget", "chance": 0.8 },
+    { "item": "minecraft:iron_nugget", "chance": 0.8 }
   ]
 }

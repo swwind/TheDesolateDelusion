@@ -3,9 +3,6 @@
 console.info("Thanks for playing The Desolute Delusion!");
 
 StartupEvents.registry("item", (event) => {
-  // Register new items here
-  // event.create('example_item').displayName('Example Item')
-
   event.create("bilibili_television").rarity("epic");
 
   event.create("pyro_crystal").rarity("uncommon");
@@ -17,7 +14,7 @@ StartupEvents.registry("item", (event) => {
   event.create("geo_crystal").rarity("uncommon");
 
   event.create("primogem").rarity("rare").glow(true);
-  event.create("intertwined_fate").rarity("rare");
+  event.create("intertwined_fate").rarity("rare").glow(true);
 });
 
 StartupEvents.registry("fluid", (event) => {

@@ -1,9 +1,42 @@
 {
-  "type": "create:deploying",
-  "ingredients": [
-    { "item": "minecraft:stick" },
-    { "item": "kubejs:pyro_crystal" }
+  "type": "create:sequenced_assembly",
+  "ingredient": { "item": "minecraft:stick" },
+  "transitionalItem": { "item": "minecraft:stick" },
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        { "item": "minecraft:stick" },
+        { "item": "kubejs:pyro_crystal" }
+      ],
+      "results": [{ "item": "minecraft:stick" }],
+      "keepHeldItem": true
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "minecraft:stick" },
+        { "fluid": "minecraft:lava", "amount": 250 }
+      ],
+      "results": [{ "item": "minecraft:stick" }]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        { "item": "minecraft:stick" },
+        { "fluid": "minecraft:lava", "amount": 250 }
+      ],
+      "results": [{ "item": "minecraft:stick" }]
+    },
+    {
+      "type": "create:pressing",
+      "ingredients": [{ "item": "minecraft:stick" }],
+      "results": [{ "item": "minecraft:stick" }]
+    }
   ],
-  "results": [{ "item": "minecraft:blaze_rod" }],
-  "keepHeldItem": true
+  "results": [
+    { "item": "minecraft:blaze_rod", "chance": 80 },
+    { "item": "supplementaries:ash", "chance": 20 }
+  ],
+  "loops": 1
 }

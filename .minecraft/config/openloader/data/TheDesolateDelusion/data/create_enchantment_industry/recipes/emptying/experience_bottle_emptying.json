@@ -1,0 +1,17 @@
+{
+  "type": "create_enchantment_industry:disenchanting",
+  "ingredients": [
+    {
+      "item": "minecraft:experience_bottle"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "fluid": "create_enchantment_industry:experience",
+      "amount": 10
+    }
+  ]
+}

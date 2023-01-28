@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AAA", "ABA", "AAA"],
+  "key": {
+    "A": {
+      "item": "minecraft:amethyst_shard"
+    },
+    "B": {
+      "item": "minecraft:sculk"
+    }
+  },
+  "result": {
+    "count": 8,
+    "item": "minecraft:echo_shard"
+  }
+}

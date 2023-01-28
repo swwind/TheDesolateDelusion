@@ -1,8 +1,8 @@
 {
   "_": "https://github.com/CFPAOrg/Minecraft-Mod-Language-Package/tree/main/projects/1.18/assets/another-furniture/another_furniture/lang/zh_cn.json",
 
-  "itemGroup.another_furniture": "Another Furniture",
-  "itemGroup.another_furniture.tab": "Another Furniture",
+  "itemGroup.another_furniture": "另类家具",
+  "itemGroup.another_furniture.tab": "另类家具",
   "subtitles.block.another_furniture.service_bell.use": "服务铃：叮铃",
   "subtitles.block.another_furniture.chair.tuck": "椅子：推入",
   "subtitles.block.another_furniture.chair.untuck": "椅子：拉出",

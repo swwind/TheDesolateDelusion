@@ -15,7 +15,7 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "farmersdelight:apple_cider" }
+        { "item": "farmersrespite:green_tea" }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     },
@@ -23,7 +23,7 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "farmersdelight:apple_cider" }
+        { "item": "farmersrespite:yellow_tea" }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     },
@@ -31,7 +31,7 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "farmersdelight:apple_cider" }
+        { "item": "farmersrespite:black_tea" }
       ],
       "results": [{ "item": "minecraft:glass_bottle" }]
     }
