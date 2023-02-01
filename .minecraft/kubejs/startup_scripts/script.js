@@ -34,8 +34,4 @@ StartupEvents.registry("fluid", (event) => {
     .thinTexture(0x773d27)
     .noBucket()
     .noBlock();
-  event.create("dragon_scale")
-    .thinTexture(0x666666)
-    .noBucket()
-    .noBlock();
 });

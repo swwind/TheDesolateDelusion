@@ -1,5 +1,5 @@
 {
-  "parent": "thedesolatedelusion:ash",
+  "parent": "thedesolatedelusion:root",
   "display": {
     "icon": {
       "item": "minecraft:prismarine_crystals"

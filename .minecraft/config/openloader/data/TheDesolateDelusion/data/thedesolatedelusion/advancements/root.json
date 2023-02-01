@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "create:andesite_alloy"
+      "item": "minecraft:recovery_compass"
     },
     "title": {
       "translate": "advancement.thedesolatedelusion.root"

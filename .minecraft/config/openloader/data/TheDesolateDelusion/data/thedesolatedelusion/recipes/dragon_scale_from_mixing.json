@@ -1,6 +1,0 @@
-{
-  "type": "create:mixing",
-  "ingredients": [{ "item": "quark:dragon_scale" }],
-  "results": [{ "fluid": "kubejs:dragon_scale", "amount": 125 }],
-  "heatRequirement": "superheated"
-}

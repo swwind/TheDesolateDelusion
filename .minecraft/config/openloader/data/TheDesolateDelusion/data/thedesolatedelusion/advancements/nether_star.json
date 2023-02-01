@@ -1,5 +1,5 @@
 {
-  "parent": "thedesolatedelusion:player_head",
+  "parent": "thedesolatedelusion:skeleton_skull",
   "display": {
     "icon": {
       "item": "minecraft:nether_star"

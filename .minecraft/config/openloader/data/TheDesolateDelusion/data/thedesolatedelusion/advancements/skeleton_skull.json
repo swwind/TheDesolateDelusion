@@ -1,14 +1,14 @@
 {
-  "parent": "thedesolatedelusion:intertwined_fate",
+  "parent": "thedesolatedelusion:root",
   "display": {
     "icon": {
-      "item": "quark:dragon_scale"
+      "item": "minecraft:skeleton_skull"
     },
     "title": {
-      "translate": "advancement.thedesolatedelusion.dragon_scale"
+      "translate": "advancement.thedesolatedelusion.skeleton_skull"
     },
     "description": {
-      "translate": "advancement.thedesolatedelusion.dragon_scale.desc"
+      "translate": "advancement.thedesolatedelusion.skeleton_skull.desc"
     },
     "frame": "task",
     "show_toast": true,
@@ -18,7 +18,7 @@
   "criteria": {
     "0": {
       "trigger": "minecraft:inventory_changed",
-      "conditions": { "items": [{ "items": ["quark:dragon_scale"] }] }
+      "conditions": { "items": [{ "items": ["minecraft:skeleton_skull"] }] }
     }
   },
   "requirements": [["0"]]
