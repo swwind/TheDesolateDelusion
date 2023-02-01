@@ -16,21 +16,8 @@
       "type": "create:filling",
       "ingredients": [
         { "item": "minecraft:stick" },
-        { "fluid": "minecraft:lava", "amount": 250 }
+        { "fluid": "create_enchantment_industry:experience", "amount": 5 }
       ],
-      "results": [{ "item": "minecraft:stick" }]
-    },
-    {
-      "type": "create:filling",
-      "ingredients": [
-        { "item": "minecraft:stick" },
-        { "fluid": "minecraft:lava", "amount": 250 }
-      ],
-      "results": [{ "item": "minecraft:stick" }]
-    },
-    {
-      "type": "create:pressing",
-      "ingredients": [{ "item": "minecraft:stick" }],
       "results": [{ "item": "minecraft:stick" }]
     }
   ],

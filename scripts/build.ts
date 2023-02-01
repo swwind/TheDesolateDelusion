@@ -14,8 +14,6 @@ await $`mkdir -p release`;
 await $`cp -r .minecraft/config build/overrides`;
 await $`cp -r .minecraft/defaultconfigs build/overrides`;
 await $`cp -r .minecraft/kubejs build/overrides`;
-await $`cp .minecraft/options.txt build/overrides`;
-await $`cp .minecraft/rhino.local.properties build/overrides`;
 
 await $`rm -rf build/overrides/kubejs/exported`;
 

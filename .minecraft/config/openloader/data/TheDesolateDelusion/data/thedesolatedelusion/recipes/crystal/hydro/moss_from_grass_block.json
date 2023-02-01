@@ -1,9 +1,0 @@
-{
-  "type": "create:item_application",
-  "ingredients": [
-    { "item": "minecraft:grass_block" },
-    { "item": "kubejs:hydro_crystal" }
-  ],
-  "results": [{ "item": "minecraft:moss_block" }],
-  "keepHeldItem": true
-}

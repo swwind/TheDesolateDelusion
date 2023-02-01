@@ -53,7 +53,7 @@
 	"Obsidian Plate" = true
 	"Metal Buttons" = true
 	"Jukebox Automation" = true
-	"Iron Rod" = true
+	"Iron Rod" = false
 	Gravisand = true
 	"Feeding Trough" = true
 	"Ender Watcher" = true
@@ -658,7 +658,7 @@
 	"Nether Obsidian Spikes" = true
 	"Monster Box" = true
 	"Glimmering Weald" = true
-	"Fairy Rings" = true
+	"Fairy Rings" = false
 	Corundum = true
 	"Chorus Vegetation" = true
 	"Blossom Trees" = true

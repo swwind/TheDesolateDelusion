@@ -1,15 +1,16 @@
 {
-  "type": "create:mechanical_crafting",
-  "pattern": ["ABCDEFG"],
-  "key": {
-    "A": { "item": "kubejs:pyro_crystal" },
-    "B": { "item": "kubejs:hydro_crystal" },
-    "C": { "item": "kubejs:anemo_crystal" },
-    "D": { "item": "kubejs:electro_crystal" },
-    "E": { "item": "kubejs:dendro_crystal" },
-    "F": { "item": "kubejs:cryo_crystal" },
-    "G": { "item": "kubejs:geo_crystal" }
-  },
-  "result": { "item": "kubejs:primogem" },
-  "acceptMirrored": false
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "minecraft:nether_star" },
+    { "item": "kubejs:pyro_crystal" },
+    { "item": "kubejs:hydro_crystal" },
+    { "item": "kubejs:anemo_crystal" },
+    { "item": "kubejs:electro_crystal" },
+    { "item": "kubejs:dendro_crystal" },
+    { "item": "kubejs:cryo_crystal" },
+    { "item": "kubejs:geo_crystal" }
+  ],
+  "result": {
+    "item": "kubejs:primogem"
+  }
 }

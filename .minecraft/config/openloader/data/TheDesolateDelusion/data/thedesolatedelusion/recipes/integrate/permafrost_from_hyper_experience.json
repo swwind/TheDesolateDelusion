@@ -1,0 +1,8 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    { "item": "quark:sturdy_stone" },
+    { "fluid": "create_enchantment_industry:hyper_experience", "amount": 10 }
+  ],
+  "results": [{ "item": "quark:permafrost" }]
+}

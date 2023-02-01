@@ -4,6 +4,6 @@
     { "item": "minecraft:blue_concrete" },
     { "item": "kubejs:geo_crystal" }
   ],
-  "results": [{ "item": "minecraft:lapis_block" }],
+  "results": [{ "item": "minecraft:lapis_ore" }],
   "keepHeldItem": true
 }

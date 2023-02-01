@@ -4,6 +4,6 @@
     { "item": "minecraft:cyan_concrete" },
     { "item": "kubejs:hydro_crystal" }
   ],
-  "results": [{ "item": "minecraft:diamond_block" }],
+  "results": [{ "item": "minecraft:diamond_ore" }],
   "keepHeldItem": true
 }

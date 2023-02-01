@@ -1,0 +1,6 @@
+{
+  "type": "create:milling",
+  "ingredients": [{ "item": "minecraft:granite" }],
+  "processingTime": 200,
+  "results": [{ "item": "biomesoplenty:orange_sand" }]
+}

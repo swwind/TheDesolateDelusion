@@ -1,5 +1,0 @@
-{
-  "type": "create:splashing",
-  "ingredients": [{ "tag": "forge:heads" }],
-  "results": [{ "item": "minecraft:skeleton_skull" }]
-}

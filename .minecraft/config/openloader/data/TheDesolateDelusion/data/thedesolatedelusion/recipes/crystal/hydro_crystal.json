@@ -31,11 +31,11 @@
       "type": "create:deploying",
       "ingredients": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "minecraft:wet_sponge" }
+        { "item": "minecraft:sponge" }
       ],
       "results": [
         { "item": "minecraft:glass_bottle" },
-        { "item": "minecraft:sponge" }
+        { "item": "minecraft:wet_sponge" }
       ]
     }
   ],

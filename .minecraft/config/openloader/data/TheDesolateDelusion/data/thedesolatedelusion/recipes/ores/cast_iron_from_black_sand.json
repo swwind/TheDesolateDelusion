@@ -1,0 +1,8 @@
+{
+  "type": "create:splashing",
+  "ingredients": [{ "item": "biomesoplenty:black_sand" }],
+  "results": [
+    { "item": "createdeco:cast_iron_nugget", "count": 3, "chance": 0.12 },
+    { "item": "farmersdelight:sandy_shrub", "chance": 0.05 }
+  ]
+}

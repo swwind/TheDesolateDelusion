@@ -9,7 +9,7 @@
 		# This option may be useful for some modpack creators.
 		# Default: true
 		#
-		"Enable Skulls & Heads" = true
+		"Enable Skulls & Heads" = false
 		# Some dungeons can rarely spawn Nether-related blocks such as soul sand, soul campfires, and soul lanterns.
 		# Note that the blocks will be purely decorative - nothing progression-breaking like Ancient Debris.
 		# Set this to false to prevent any Nether-related blocks from spawning in dungeons.
@@ -55,7 +55,7 @@
 	["YUNG's Better Dungeons"."Small Nether Dungeons"]
 		# Whether or not small Nether dungeons should spawn.
 		# Default: false
-		"Enable Small Nether Dungeons" = false
+		"Enable Small Nether Dungeons" = true
 		# Whether or not Wither skeletons spawned from small Nether dungeons have a chance to drop Wither skeleton skulls.
 		# Default: true
 		"Wither Skeletons From Spawners Drop Wither Skeleton Skulls" = true

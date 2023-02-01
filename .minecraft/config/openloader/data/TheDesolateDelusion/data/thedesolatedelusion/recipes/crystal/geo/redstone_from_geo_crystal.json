@@ -4,6 +4,6 @@
     { "item": "minecraft:red_concrete" },
     { "item": "kubejs:geo_crystal" }
   ],
-  "results": [{ "item": "minecraft:redstone_block" }],
+  "results": [{ "item": "minecraft:redstone_ore" }],
   "keepHeldItem": true
 }

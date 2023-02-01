@@ -1,0 +1,14 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    { "item": "farmersrespite:yellow_tea_leaves" },
+    { "item": "farmersrespite:yellow_tea_leaves" },
+    {
+      "amount": 250,
+      "fluid": "minecraft:water",
+      "nbt": {}
+    }
+  ],
+  "results": [{ "fluid": "kubejs:yellow_tea", "amount": 250 }],
+  "heatRequirement": "heated"
+}

@@ -1,0 +1,8 @@
+{
+  "type": "create:splashing",
+  "ingredients": [{ "item": "biomesoplenty:white_sand" }],
+  "results": [
+    { "item": "minecraft:iron_nugget", "count": 3, "chance": 0.12 },
+    { "item": "biomesoplenty:desert_grass", "chance": 0.05 }
+  ]
+}

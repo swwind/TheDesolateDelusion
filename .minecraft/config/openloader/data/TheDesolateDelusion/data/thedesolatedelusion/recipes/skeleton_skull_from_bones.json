@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["AAA", "ABA", "AAA"],
+  "key": {
+    "A": { "item": "minecraft:bone_block" },
+    "B": { "item": "minecraft:skeleton_skull" }
+  },
+  "result": { "item": "minecraft:skeleton_skull", "count": 2 }
+}

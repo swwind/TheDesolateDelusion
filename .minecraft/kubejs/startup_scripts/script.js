@@ -22,6 +22,18 @@ StartupEvents.registry("fluid", (event) => {
     .thinTexture(0xe4ac7c)
     .noBucket()
     .noBlock();
+  event.create("green_tea")
+    .thinTexture(0x9fa63b)
+    .noBucket()
+    .noBlock();
+  event.create("yellow_tea")
+    .thinTexture(0xa98341)
+    .noBucket()
+    .noBlock();
+  event.create("black_tea")
+    .thinTexture(0x773d27)
+    .noBucket()
+    .noBlock();
   event.create("dragon_scale")
     .thinTexture(0x666666)
     .noBucket()

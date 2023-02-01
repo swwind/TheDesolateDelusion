@@ -1,0 +1,8 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    { "item": "minecraft:glass_bottle" },
+    { "fluid": "kubejs:yellow_tea", "amount": 250 }
+  ],
+  "results": [{ "item": "farmersrespite:yellow_tea" }]
+}

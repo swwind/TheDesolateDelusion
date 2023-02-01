@@ -1,0 +1,13 @@
+{
+  "type": "create:haunting",
+  "ingredients": [
+    {
+      "item": "minecraft:moss_carpet"
+    }
+  ],
+  "results": [
+    {
+      "item": "biomesoplenty:glowing_moss_carpet"
+    }
+  ]
+}
