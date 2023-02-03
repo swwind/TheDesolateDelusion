@@ -1,8 +1,5 @@
 import { $, cd } from "https://deno.land/x/zx_deno@1.2.2/mod.mjs";
-import { Modpack } from "./utils.ts";
-
-const FORGE_VERSION = "43.2.3";
-const MODPACK_VERSION = "0.1.0";
+import { FORGE_VERSION, Modpack, MODPACK_VERSION } from "./utils.ts";
 
 const cwd = Deno.cwd();
 
