@@ -376,7 +376,7 @@
       "id": 531834,
       "name": "Create Confectionery",
       "client": true,
-      "server": false,
+      "server": true,
       "fileId": 4023150
     },
     {
@@ -478,13 +478,6 @@
       "fileId": 4226036
     },
     {
-      "id": 688231,
-      "name": "Create: Steam 'n Rails",
-      "client": true,
-      "server": true,
-      "fileId": 4357495
-    },
-    {
       "id": 596879,
       "name": "Radon",
       "client": true,
@@ -532,6 +525,13 @@
       "client": true,
       "server": true,
       "fileId": 4031213
+    },
+    {
+      "id": 688231,
+      "name": "Create: Steam 'n Rails",
+      "client": true,
+      "server": true,
+      "fileId": 4384699
     }
   ]
 }
