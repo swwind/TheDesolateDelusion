@@ -21,3 +21,6 @@
 	list = []
 	is_blacklist = true
 
+[features]
+	elytra_boost = true
+

@@ -3,6 +3,7 @@ fruitDropModeSingleplayer = "INDEPENDENT"
 fruitDropModeMultiplayer = "ONE_BY_ONE"
 appleSaplingFromHeroOfTheVillage = true
 villageAppleTreeWorldGen = true
+hornHarvestingInstrument = "minecraft:sing_goat_horn"
 
 [modules]
 farmersdelight = true

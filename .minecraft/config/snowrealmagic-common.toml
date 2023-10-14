@@ -8,14 +8,18 @@ snowAccumulationMaxLayers = 8
 thinnerBoundingBox = true
 snowMakingIce = true
 snowNeverMelt = false
-snowMeltsInWarmBiomes = false
+snowAndIceMeltInWarmBiomes = false
 snowNaturalMelt = true
 snowReduceFallDamage = true
 replaceWorldFeature = true
 sustainGrassIfLayerMoreThanOne = true
 retainOriginalBlocks = false
-advancedBlockInteraction = true
 sneakSnowball = true
+mobSpawningMaxLayers = 8
 
 [integration]
 accumulationWinterOnly = false
+
+[debug]
+weatherTickSlowness = 16
+mobSpawningCommand = false

@@ -1,6 +1,7 @@
 contributorCosmetic = ""
 globalTooltip = true
 noMicrosoftTelemetry = true
+suppressExperimentalSettingsWarning = false
 
 [debug]
 tagsTooltip = true
