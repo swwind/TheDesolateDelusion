@@ -532,6 +532,27 @@
       "client": true,
       "server": true,
       "fileId": 4746992
+    },
+    {
+      "id": 637808,
+      "name": "Brewin' And Chewin'",
+      "client": true,
+      "server": true,
+      "fileId": 4468049
+    },
+    {
+      "id": 669167,
+      "name": "Italian Delight (A Farmer's Delight Add-on)",
+      "client": true,
+      "server": true,
+      "fileId": 4480646
+    },
+    {
+      "id": 841262,
+      "name": "Ocean's Delight",
+      "client": true,
+      "server": true,
+      "fileId": 4652058
     }
   ]
 }
