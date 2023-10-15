@@ -1,6 +1,5 @@
 {
   "fruittrees": "果树",
-
   "item.fruittrees.mandarin": "橘子",
   "item.fruittrees.lime": "酸橙",
   "item.fruittrees.citron": "香橼",
@@ -11,13 +10,12 @@
   "item.fruittrees.empowered_citron": "充能香橼",
   "item.fruittrees.cherry": "樱桃",
   "item.fruittrees.redlove": "红心果",
-
-  "item.fruittrees.grapefruit_panna_cotta": "葡萄柚意式奶冻",
-  "item.fruittrees.donauwelle": "多瑙河之波",
-  "item.fruittrees.honey_pomelo_tea": "蜂蜜柚子茶",
-  "item.fruittrees.rice_with_fruits": "水果竹筒饭",
-  "item.fruittrees.lemon_roast_chicken": "柠檬烤鸡",
-
+  "block.fruittrees.grapefruit_panna_cotta": "葡萄柚意式奶冻",
+  "block.fruittrees.donauwelle": "多瑙河之波",
+  "block.fruittrees.honey_pomelo_tea": "蜂蜜柚子茶",
+  "block.fruittrees.rice_with_fruits": "水果竹筒饭",
+  "block.fruittrees.lemon_roast_chicken_block": "柠檬烤鸡",
+  "item.fruittrees.lemon_roast_chicken": "盘装柠檬烤鸡",
   "item.fruittrees.heart_banner_pattern": "旗帜图案",
   "item.fruittrees.heart_banner_pattern.desc": "心形",
   "block.minecraft.banner.fruittrees.heart.white": "白色心形",
@@ -54,7 +52,6 @@
   "block.minecraft.banner.fruittrees.snowflake.green": "绿色雪花",
   "block.minecraft.banner.fruittrees.snowflake.red": "红色雪花",
   "block.minecraft.banner.fruittrees.snowflake.black": "黑色雪花",
-
   "block.fruittrees.mandarin_sapling": "橘子树苗",
   "block.fruittrees.lime_sapling": "酸橙树苗",
   "block.fruittrees.citron_sapling": "香橼树苗",
@@ -65,7 +62,6 @@
   "block.fruittrees.apple_sapling": "苹果橡树树苗",
   "block.fruittrees.cherry_sapling": "樱桃树苗",
   "block.fruittrees.redlove_sapling": "红心果树苗",
-
   "block.fruittrees.potted_mandarin": "橘子树苗盆栽",
   "block.fruittrees.potted_lime": "酸橙树苗盆栽",
   "block.fruittrees.potted_citron": "香橼树苗盆栽",
@@ -76,7 +72,6 @@
   "block.fruittrees.potted_apple": "苹果橡树树苗盆栽",
   "block.fruittrees.potted_cherry": "樱桃树苗盆栽",
   "block.fruittrees.potted_redlove": "红心果树苗盆栽",
-
   "block.fruittrees.mandarin_leaves": "橘子树叶",
   "block.fruittrees.lime_leaves": "酸橙树叶",
   "block.fruittrees.citron_leaves": "香橼树叶",
@@ -87,10 +82,8 @@
   "block.fruittrees.apple_leaves": "苹果橡树树叶",
   "block.fruittrees.cherry_leaves": "樱桃树叶",
   "block.fruittrees.redlove_leaves": "红心果树叶",
-
   "block.fruittrees.cherry_carpet": "樱桃落叶",
   "block.fruittrees.redlove_carpet": "红心果落叶",
-
   "block.fruittrees.citrus_log": "柑橘木原木",
   "block.fruittrees.citrus_wood": "柑橘木",
   "block.fruittrees.stripped_citrus_log": "去皮柑橘木原木",
@@ -106,7 +99,6 @@
   "block.fruittrees.citrus_trapdoor": "柑橘木活板门",
   "block.fruittrees.citrus_sign": "柑橘木告示牌",
   "block.fruittrees.citrus_cabinet": "柑橘木橱柜",
-
   "block.fruittrees.cherry_log": "樱木原木",
   "block.fruittrees.cherry_wood": "樱木",
   "block.fruittrees.stripped_cherry_log": "去皮樱木原木",
@@ -123,23 +115,26 @@
   "block.fruittrees.cherry_trapdoor": "樱木活板门",
   "block.fruittrees.cherry_sign": "樱木告示牌",
   "block.fruittrees.cherry_cabinet": "樱木橱柜",
-
   "entity.fruittrees.sliding_door": "推拉门",
-
-  "gui.fruittrees.hybriding": "蜜蜂授粉",
+  "gui.fruittrees.hybridizing": "蜜蜂授粉",
   "gui.fruittrees.tip.flowering": "开花的%s",
   "gui.fruittrees.tip.appleSaplingFromHeroOfTheVillage": "当你成为村庄英雄时，幼年村民会将其作为礼物送给你。",
   "gui.fruittrees.tip.villageAppleTreeWorldGen": "苹果树有时也生长在平原的村庄里。",
-
+  "tip.fruittrees.clearHarmfulEffects": "清除有害效果",
+  "tip.fruittrees.useContainer": "你需要一个%s来食用这个。",
+  "advancements.fruittrees.start.title": "一个新的开始",
+  "advancements.fruittrees.start.description": "我要让你绽放吗？一个水果丑闻",
   "advancements.fruittrees.grapefruit.title": "橘势大好！",
   "advancements.fruittrees.grapefruit.description": "杂交出一棵西柚树",
+  "advancements.fruittrees.apple.title": "行动：大苹果",
+  "advancements.fruittrees.apple.description": "从一次袭击中获得苹果橡树苗",
   "advancements.fruittrees.redlove.title": "欢迎来到樱花庄",
   "advancements.fruittrees.redlove.description": "杂交出一棵红心果树",
   "advancements.fruittrees.forestbat.title": "加速！加速！",
   "advancements.fruittrees.forestbat.description": "遇见森林蝙蝠",
-
+  "advancements.fruittrees.horn.title": "欢歌四起",
+  "advancements.fruittrees.horn.description": "使用特定类型的山羊角收获水果",
   "fruittrees.forestbat": "森林蝙蝠",
-
   "config.jade.plugin_fruittrees": "果树",
   "config.jade.plugin_fruittrees.bee": "蜜蜂"
 }
