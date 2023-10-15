@@ -6,7 +6,7 @@ const API_KEY = Deno.env.get("CURSEFORGE_API_KEY");
 
 export const MINECRAFT_VERSION = "1.19.2";
 export const FORGE_VERSION = "43.2.3";
-export const MODPACK_VERSION = "0.1.0";
+export const MODPACK_VERSION = "0.1.1";
 
 if (!API_KEY) {
   throw new Error("Missing CURSEFORGE_API_KEY in .env");
@@ -55,7 +55,7 @@ export async function getFileInfo(modId: number, fileId: number) {
 
 export async function getModFiles(minecraft: string, modId: number) {
   return await request<{ data: FileInfo[] }>(
-    `/v1/mods/${modId}/files?gameVersion=${minecraft}&modLoaderType=1`
+    `/v1/mods/${modId}/files?gameVersion=${minecraft}&modLoaderType=1`,
   );
 }
 
@@ -74,8 +74,11 @@ export async function downloadModFile(downloadUrl: string, filename: string) {
 export async function checkHash(filename: string, hashes: FileInfoHash[]) {
   console.log(`==> Checking hashes for ${filename}...`);
   for (const hash of hashes) {
-    const algo =
-      hash.algo === 1 ? "sha1sum" : hash.algo === 2 ? "md5sum" : null;
+    const algo = hash.algo === 1
+      ? "sha1sum"
+      : hash.algo === 2
+      ? "md5sum"
+      : null;
     if (!algo) throw new Error(`Unknown checksum for algorithm ${hash.algo}`);
     await $`${algo} -c - <<< ${`${hash.value} ${filename}`}`;
   }
