@@ -27,7 +27,7 @@
       "name": "Fruit Trees 🍊",
       "client": true,
       "server": true,
-      "fileId": 4394248
+      "fileId": 4799298
     },
     {
       "id": 379887,
@@ -69,7 +69,7 @@
       "name": "Quark",
       "client": true,
       "server": true,
-      "fileId": 4796452
+      "fileId": 4798453
     },
     {
       "id": 301051,
@@ -146,14 +146,14 @@
       "name": "Jade 🔍",
       "client": true,
       "server": true,
-      "fileId": 4719987
+      "fileId": 4800904
     },
     {
       "id": 276951,
       "name": "Comforts (Fabric/Forge/Quilt)",
       "client": true,
       "server": true,
-      "fileId": 4498935
+      "fileId": 4802721
     },
     {
       "id": 398521,
@@ -202,14 +202,14 @@
       "name": "Xaero's Minimap",
       "client": true,
       "server": false,
-      "fileId": 4768136
+      "fileId": 4799544
     },
     {
       "id": 317780,
       "name": "Xaero's World Map",
       "client": true,
       "server": false,
-      "fileId": 4749568
+      "fileId": 4799583
     },
     {
       "id": 306549,
@@ -279,7 +279,7 @@
       "name": "KubeJS",
       "client": true,
       "server": true,
-      "fileId": 4744432
+      "fileId": 4803419
     },
     {
       "id": 419699,

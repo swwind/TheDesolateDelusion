@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "0": {
+      "trigger": "minecraft:entity_killed_player",
+      "conditions": {
+        "entity": {
+          "type": "create:carriage_contraption"
+        }
+      }
+    }
+  },
+  "requirements": [["0"]],
+  "rewards": {
+    "function": "thedesolatedelusion:goto_isekai"
+  }
+}
