@@ -45,14 +45,14 @@
 
 # Updates 0.1.2
 
-- [ ] Mini Map & World Map translations
+- [x] Mini Map & World Map translations
 - [ ] Farmers delight update
 - [ ] Update tips
 - [ ] Update advancements
 - [ ] Farmers delight dough
-- [ ] Jetpack (key.categories.movement.jetpack)
-- [ ] Xaeros's Minimap (Toggle Tracked Players)
-- [ ] Xaeros's World Map
+- [x] Jetpack (key.categories.movement.jetpack)
+- [x] Xaeros's Minimap (Toggle Tracked Players)
+- [x] Xaeros's World Map
 - [ ] Toast Control
 - [ ] Placebo
 - [ ] Change Bottle of Cloud recipe
