@@ -6,7 +6,7 @@ const API_KEY = Deno.env.get("CURSEFORGE_API_KEY");
 
 export const MINECRAFT_VERSION = "1.19.2";
 export const FORGE_VERSION = "43.2.3";
-export const MODPACK_VERSION = "0.1.1";
+export const MODPACK_VERSION = "0.1.2";
 
 if (!API_KEY) {
   throw new Error("Missing CURSEFORGE_API_KEY in .env");
