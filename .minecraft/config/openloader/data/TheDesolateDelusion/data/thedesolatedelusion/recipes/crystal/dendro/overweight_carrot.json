@@ -1,9 +1,0 @@
-{
-  "type": "create:item_application",
-  "ingredients": [
-    { "item": "minecraft:carrot" },
-    { "item": "kubejs:dendro_crystal" }
-  ],
-  "results": [{ "item": "overweight_farming:overweight_carrot_block" }],
-  "keepHeldItem": true
-}

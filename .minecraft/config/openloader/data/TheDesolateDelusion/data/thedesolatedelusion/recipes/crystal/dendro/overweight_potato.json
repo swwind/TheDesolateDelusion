@@ -1,9 +1,0 @@
-{
-  "type": "create:item_application",
-  "ingredients": [
-    { "item": "minecraft:potato" },
-    { "item": "kubejs:dendro_crystal" }
-  ],
-  "results": [{ "item": "overweight_farming:overweight_potato_block" }],
-  "keepHeldItem": true
-}
