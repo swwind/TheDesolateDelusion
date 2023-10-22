@@ -17,7 +17,7 @@
   "item.kubejs.dendro_crystal.tip": "§a来自纳西妲的眷顾\n§a§o让万物焕发生机",
   "item.kubejs.electro_crystal.tip": "§d来自雷电影的眷顾\n§d§o但是她不会做饭",
   "item.kubejs.geo_crystal.tip": "§6来自钟离的眷顾\n§6§o天动万象",
-  "item.kubejs.hydro_crystal.tip": "§9来自水神的眷顾",
+  "item.kubejs.hydro_crystal.tip": "§9来自芙宁娜的眷顾",
   "item.kubejs.pyro_crystal.tip": "§c来自火神的眷顾",
 
   "item.kubejs.primogem": "原石",
@@ -27,5 +27,8 @@
   "fluid.kubejs.dragon_scale": "龙鳞",
   "fluid.kubejs.green_tea": "绿茶",
   "fluid.kubejs.yellow_tea": "黄茶",
-  "fluid.kubejs.black_tea": "红茶"
+  "fluid.kubejs.black_tea": "红茶",
+  "fluid.kubejs.steam": "水蒸气",
+
+  "item.kubejs.steam_bucket": "水蒸气桶"
 }

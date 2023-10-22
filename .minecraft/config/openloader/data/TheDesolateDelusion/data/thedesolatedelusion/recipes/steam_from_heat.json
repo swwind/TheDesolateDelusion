@@ -1,0 +1,6 @@
+{
+  "type": "create:mixing",
+  "ingredients": [{ "fluid": "minecraft:water", "amount": 10, "nbt": {} }],
+  "results": [{ "fluid": "kubejs:steam", "amount": 10 }],
+  "heatRequirement": "heated"
+}

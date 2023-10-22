@@ -1,0 +1,8 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    { "item": "minecraft:glass_bottle" },
+    { "fluid": "kubejs:steam", "amount": 250 }
+  ],
+  "results": [{ "item": "quark:bottled_cloud" }]
+}

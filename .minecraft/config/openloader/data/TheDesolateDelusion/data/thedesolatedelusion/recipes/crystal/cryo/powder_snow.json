@@ -1,7 +1,7 @@
 {
   "type": "create:deploying",
   "ingredients": [
-    { "item": "minecraft:water_bucket" },
+    { "item": "kubejs:steam_bucket" },
     { "item": "kubejs:cryo_crystal" }
   ],
   "results": [{ "item": "minecraft:powder_snow_bucket" }],

@@ -12,12 +12,12 @@
   "item.kubejs.hydro_crystal": "Hydro Crystal",
   "item.kubejs.pyro_crystal": "Pyro Crystal",
 
-  "item.kubejs.anemo_crystal.tip": "§3From Venti's favor",
+  "item.kubejs.anemo_crystal.tip": "§3From Barbatos's favor",
   "item.kubejs.cryo_crystal.tip": "",
-  "item.kubejs.dendro_crystal.tip": "§aFrom Nahida's favor",
-  "item.kubejs.electro_crystal.tip": "§dFrom Ei's favor",
+  "item.kubejs.dendro_crystal.tip": "§aFrom Buer's favor",
+  "item.kubejs.electro_crystal.tip": "§dFrom Beelzebul's favor",
   "item.kubejs.geo_crystal.tip": "§6From Morax's favor",
-  "item.kubejs.hydro_crystal.tip": "",
+  "item.kubejs.hydro_crystal.tip": "§bFrom Focalors's favor",
   "item.kubejs.pyro_crystal.tip": "",
 
   "item.kubejs.primogem": "Primogem",
@@ -27,5 +27,8 @@
   "fluid.kubejs.dragon_scale": "Dragon scale",
   "fluid.kubejs.green_tea": "Green Tea",
   "fluid.kubejs.yellow_tea": "Yellow Tea",
-  "fluid.kubejs.black_tea": "Black Tea"
+  "fluid.kubejs.black_tea": "Black Tea",
+  "fluid.kubejs.steam": "Steam",
+
+  "item.kubejs.steam_bucket": "Steam Bucket"
 }

@@ -11,7 +11,7 @@
       "item": "create:powdered_obsidian"
     },
     {
-      "chance": 0.9,
+      "chance": 0.95,
       "item": "minecraft:crying_obsidian"
     }
   ]

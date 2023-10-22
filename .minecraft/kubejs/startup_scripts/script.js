@@ -18,20 +18,9 @@ StartupEvents.registry("item", (event) => {
 });
 
 StartupEvents.registry("fluid", (event) => {
-  event.create("apple_cider")
-    .thinTexture(0xe4ac7c)
-    .noBucket()
-    .noBlock();
-  event.create("green_tea")
-    .thinTexture(0x9fa63b)
-    .noBucket()
-    .noBlock();
-  event.create("yellow_tea")
-    .thinTexture(0xa98341)
-    .noBucket()
-    .noBlock();
-  event.create("black_tea")
-    .thinTexture(0x773d27)
-    .noBucket()
-    .noBlock();
+  event.create("apple_cider").thinTexture(0xe4ac7c).noBucket().noBlock();
+  event.create("green_tea").thinTexture(0x9fa63b).noBucket().noBlock();
+  event.create("yellow_tea").thinTexture(0xa98341).noBucket().noBlock();
+  event.create("black_tea").thinTexture(0x773d27).noBucket().noBlock();
+  event.create("steam").thinTexture(0xcccccc).noBlock();
 });
