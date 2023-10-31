@@ -3,8 +3,7 @@
   "ingredients": [
     { "item": "create:honeyed_apple" },
     { "item": "create:honeyed_apple" },
-    { "item": "minecraft:sugar" },
-    { "fluid": "minecraft:water", "amount": 250, "nbt": {} }
+    { "item": "minecraft:sugar" }
   ],
   "results": [{ "fluid": "kubejs:apple_cider", "amount": 250 }],
   "heatRequirement": "heated"

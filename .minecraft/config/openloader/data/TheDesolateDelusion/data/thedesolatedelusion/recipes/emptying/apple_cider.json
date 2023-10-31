@@ -1,0 +1,8 @@
+{
+  "type": "create:emptying",
+  "ingredients": [{ "item": "farmersdelight:apple_cider" }],
+  "results": [
+    { "item": "minecraft:glass_bottle" },
+    { "fluid": "kubejs:apple_cider", "amount": 250 }
+  ]
+}
